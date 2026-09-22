@@ -2,6 +2,8 @@ let scoreChart;
 
 const formatPct = value => `${(Number(value) * 100).toFixed(1)}%`;
 const cell = (value, tag = "td") => `<${tag}>${value ?? ""}</${tag}>`;
+const champions = new Set();
+const playerLabel = player => champions.has(player) ? `${player} ★` : player;
 
 function renderTable(element, columns, rows) {
   element.innerHTML = `<thead><tr>${columns.map(c => cell(c.label, "th")).join("")}</tr></thead><tbody>${
@@ -11,6 +13,7 @@ function renderTable(element, columns, rows) {
 
 function render(data) {
   const scores = data.playerScores || [];
+  (data.priorChampions || []).forEach(player => champions.add(player));
   document.title = data.title;
   document.getElementById("title").textContent = data.title;
   document.getElementById("updated").textContent = `Last updated: ${data.updated}`;
@@ -18,7 +21,7 @@ function render(data) {
 
   renderTable(document.getElementById("leaderboard-table"), [
     { key: "Rank", label: "#", format: (_, row) => scores.indexOf(row) + 1 },
-    { key: "Player", label: "Player" },
+    { key: "Player", label: "Player", format: value => playerLabel(value) },
     { key: "Points", label: "Points" },
     { key: "Correct", label: "Correct" },
     { key: "Graded", label: "Graded" },
@@ -31,7 +34,7 @@ function render(data) {
   document.getElementById("player-of-week").innerHTML = `
     <div class="section-heading"><div><p class="eyebrow">WEEKLY HONOR</p><h2>Player of the week</h2></div><span class="trophy">🏆</span></div>
     <div class="award">
-      <strong>${playersOfWeek.length ? playersOfWeek.join(" & ") : "No completed games yet"}</strong>
+      <strong>${playersOfWeek.length ? playersOfWeek.map(playerLabel).join(" & ") : "No completed games yet"}</strong>
       ${playersOfWeek.length ? `<span>${playerOfWeek.points} points in ${playerOfWeek.week}</span>` : ""}
     </div>`;
 
@@ -43,14 +46,20 @@ function render(data) {
   ];
   renderTable(document.getElementById("standings-table"), columns, standings);
   renderTable(document.getElementById("draft-table"), [
-    { key: "Round", label: "Round" }, { key: "Pick", label: "Pick" }, { key: "Player", label: "Player" },
+    { key: "Round", label: "Round" }, { key: "Pick", label: "Pick" }, { key: "Player", label: "Player", format: value => playerLabel(value) },
     { key: "Selection", label: "Selection" }, { key: "Team", label: "Team" }
   ], data.draft || []);
   renderTable(document.getElementById("pick-scores-table"), [
-    { key: "Player", label: "Player" }, { key: "Round", label: "Round" },
+    { key: "Player", label: "Player", format: value => playerLabel(value) }, { key: "Round", label: "Round" },
     { key: "Pick", label: "Pick" }, { key: "Team", label: "Team" },
     { key: "Selection", label: "Picked" }, { key: "Points", label: "Points" }
   ], data.pickScores || []);
+  renderTable(document.getElementById("historical-table"), [
+    { key: "Season", label: "Season" },
+    { key: "Player", label: "Player", format: value => playerLabel(value) },
+    { key: "Points", label: "Points" },
+    { key: "Champion", label: "Result", format: value => value ? "★ Champion" : "" }
+  ], data.historical || []);
 
   const filter = document.getElementById("team-filter");
   filter.oninput = () => {
@@ -64,7 +73,8 @@ function render(data) {
   let totals = Object.fromEntries(players.map(player => [player, 0]));
   const datasets = players.map((player, index) => {
     const values = labels.map(week => { totals[player] += Number(weeks[week][player] || 0); return totals[player]; });
-    return { label: player, data: values, borderWidth: 2, tension: .25, borderColor: `hsl(${(index * 57) % 360} 60% 45%)`, pointRadius: 2 };
+    const playerColors = { alexander: "#c7f000", ryan: "#e53935" };
+    return { label: playerLabel(player), data: values, borderWidth: 2, tension: .25, borderColor: playerColors[player.toLowerCase()] || `hsl(${(index * 57) % 360} 60% 45%)`, pointRadius: 2 };
   });
   if (scoreChart) scoreChart.destroy();
   scoreChart = new Chart(document.getElementById("score-chart"), { type: "line", data: { labels, datasets }, options: { responsive: true, plugins: { legend: { position: "bottom" } }, scales: { y: { beginAtZero: true } } } });

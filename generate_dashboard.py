@@ -6,6 +6,7 @@ from datetime import datetime
 import pandas as pd
 
 WORKBOOK = r"A:\Scoreboard struggle\NFL game\2026\NFL 2026.xlsx"
+HISTORICAL_WORKBOOK = r"A:\Scoreboard struggle\NFL game\Historical\historical.xlsx"
 OUTPUT = os.path.join(os.path.dirname(__file__), "data", "dashboard.json")
 
 DIVISIONS = {
@@ -31,6 +32,40 @@ DIVISIONS = {
 def sheet_name(sheets, wanted):
     lookup = {name.casefold(): name for name in sheets}
     return lookup[wanted.casefold()]
+
+
+def historical_summary():
+    if not os.path.exists(HISTORICAL_WORKBOOK):
+        return [], []
+
+    history = []
+    champions = []
+    workbook = pd.ExcelFile(HISTORICAL_WORKBOOK)
+    for season in workbook.sheet_names:
+        sheet = pd.read_excel(HISTORICAL_WORKBOOK, sheet_name=season, header=1)
+        columns = {str(column).strip().casefold(): column for column in sheet.columns}
+        player_column = columns.get("player")
+        points_column = columns.get("points") or columns.get("score")
+        if not player_column or not points_column:
+            continue
+        scores = (
+            sheet[[player_column, points_column]]
+            .rename(columns={player_column: "Player", points_column: "Points"})
+            .dropna(subset=["Player", "Points"])
+        )
+        scores["Player"] = scores["Player"].replace({"Chrsitian": "Christian"})
+        totals = scores.groupby("Player", as_index=False)["Points"].sum()
+        top_points = totals["Points"].max()
+        season_champions = totals.loc[totals["Points"] == top_points, "Player"].tolist()
+        champions.extend(season_champions)
+        for row in totals.sort_values(["Points", "Player"], ascending=[False, True]).itertuples():
+            history.append({
+                "Season": str(season),
+                "Player": row.Player,
+                "Points": int(row.Points),
+                "Champion": row.Player in season_champions,
+            })
+    return history, sorted(set(champions))
 
 
 def main():
@@ -138,6 +173,7 @@ def main():
         row["Player"]: index
         for index, row in enumerate(player_scores)
     }
+    historical, prior_champions = historical_summary()
 
     payload = {
         "title": "NFL Draft League 2026",
@@ -153,6 +189,8 @@ def main():
         "pickScores": [],
         "playerScores": player_scores,
         "weeklyScores": weekly_scores,
+        "historical": historical,
+        "priorChampions": prior_champions,
     }
     payload["pickScores"] = [
         {
