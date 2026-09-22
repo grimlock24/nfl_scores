@@ -80,6 +80,6 @@ function render(data) {
   scoreChart = new Chart(document.getElementById("score-chart"), { type: "line", data: { labels, datasets }, options: { responsive: true, plugins: { legend: { position: "bottom" } }, scales: { y: { beginAtZero: true } } } });
 }
 
-fetch("data/dashboard.json").then(response => response.json()).then(render).catch(error => {
+fetch("dashboard.json").then(response => response.json()).then(render).catch(error => {
   document.getElementById("updated").textContent = `Unable to load dashboard data: ${error.message}`;
 });
