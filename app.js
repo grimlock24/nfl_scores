@@ -6,6 +6,7 @@ const champions = new Set();
 const playerLabel = player => champions.has(player)
   ? `<span class="player-label"><img class="player-icon" src="NWO%20belt.png" alt="Prior champion">${player}</span>`
   : player;
+const historicalPlayerLabel = (player, row) => row.Champion ? playerLabel(player) : player;
 const playerText = player => champions.has(player) ? `${player} ★` : player;
 
 function renderTable(element, columns, rows) {
@@ -59,7 +60,7 @@ function render(data) {
   ], data.pickScores || []);
   renderTable(document.getElementById("historical-table"), [
     { key: "Season", label: "Season" },
-    { key: "Player", label: "Player", format: value => playerLabel(value) },
+    { key: "Player", label: "Player", format: (value, row) => historicalPlayerLabel(value, row) },
     { key: "Points", label: "Points" },
     { key: "Champion", label: "Result", format: value => value ? "★ Champion" : "" }
   ], data.historical || []);
