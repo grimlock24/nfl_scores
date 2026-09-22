@@ -55,15 +55,15 @@ def historical_summary():
         )
         scores["Player"] = scores["Player"].replace({"Chrsitian": "Christian"})
         totals = scores.groupby("Player", as_index=False)["Points"].sum()
-        top_points = totals["Points"].max()
-        season_champions = totals.loc[totals["Points"] == top_points, "Player"].tolist()
-        champions.extend(season_champions)
-        for row in totals.sort_values(["Points", "Player"], ascending=[False, True]).itertuples():
+        totals = totals.sort_values(["Points", "Player"], ascending=[False, True])
+        season_champion = totals.iloc[0]["Player"]
+        champions.append(season_champion)
+        for row in totals.itertuples():
             history.append({
                 "Season": str(season),
                 "Player": row.Player,
                 "Points": int(row.Points),
-                "Champion": row.Player in season_champions,
+                "Champion": row.Player == season_champion,
             })
     return history, sorted(set(champions))
 

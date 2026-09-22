@@ -3,7 +3,10 @@ let scoreChart;
 const formatPct = value => `${(Number(value) * 100).toFixed(1)}%`;
 const cell = (value, tag = "td") => `<${tag}>${value ?? ""}</${tag}>`;
 const champions = new Set();
-const playerLabel = player => champions.has(player) ? `${player} ★` : player;
+const playerLabel = player => champions.has(player)
+  ? `<span class="player-label"><img class="player-icon" src="NWO%20belt.png" alt="Prior champion">${player}</span>`
+  : player;
+const playerText = player => champions.has(player) ? `${player} ★` : player;
 
 function renderTable(element, columns, rows) {
   element.innerHTML = `<thead><tr>${columns.map(c => cell(c.label, "th")).join("")}</tr></thead><tbody>${
@@ -74,7 +77,7 @@ function render(data) {
   const datasets = players.map((player, index) => {
     const values = labels.map(week => { totals[player] += Number(weeks[week][player] || 0); return totals[player]; });
     const playerColors = { alexander: "#c7f000", ryan: "#e53935" };
-    return { label: playerLabel(player), data: values, borderWidth: 2, tension: .25, borderColor: playerColors[player.toLowerCase()] || `hsl(${(index * 57) % 360} 60% 45%)`, pointRadius: 2 };
+    return { label: playerText(player), data: values, borderWidth: 2, tension: .25, borderColor: playerColors[player.toLowerCase()] || `hsl(${(index * 57) % 360} 60% 45%)`, pointRadius: 2 };
   });
   if (scoreChart) scoreChart.destroy();
   scoreChart = new Chart(document.getElementById("score-chart"), { type: "line", data: { labels, datasets }, options: { responsive: true, plugins: { legend: { position: "bottom" } }, scales: { y: { beginAtZero: true } } } });

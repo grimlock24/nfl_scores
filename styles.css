@@ -30,6 +30,8 @@ h2 { margin-bottom: 0; font-size: 1.2rem; }
 .player { display: flex; align-items: center; gap: 12px; border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
 .rank { width: 26px; height: 26px; display: grid; place-items: center; border-radius: 50%; color: white; background: var(--accent); font-weight: 800; font-size: .8rem; }
 .player-name { font-weight: 700; flex: 1; }.points { font-size: 1.25rem; font-weight: 800; color: var(--accent); }
+.player-label { display: inline-flex; align-items: center; gap: 6px; }
+.player-icon { width: 24px; height: 24px; object-fit: contain; vertical-align: middle; }
 .player-of-week { background: linear-gradient(110deg, #fff8e7, #fff); border-color: #f1d38b; }
 .trophy { font-size: 1.55rem; }.award { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }.award strong { color: #8d5a0b; font-size: 1.35rem; }.award span { color: var(--muted); font-size: .9rem; }
 .under-construction { min-height: 230px; display: grid; place-content: center; text-align: center; color: var(--muted); }
