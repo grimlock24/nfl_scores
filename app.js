@@ -58,12 +58,35 @@ function render(data) {
     { key: "Pick", label: "Pick" }, { key: "Team", label: "Team" },
     { key: "Selection", label: "Picked" }, { key: "Points", label: "Points" }
   ], data.pickScores || []);
+  const pickScores = data.pickScores || [];
+  const playerFilter = document.getElementById("player-filter");
+  [...new Set(pickScores.map(row => row.Player))].sort().forEach(player => {
+    playerFilter.insertAdjacentHTML("beforeend", `<option value="${player}">${player}</option>`);
+  });
+  const renderPickScores = () => renderTable(
+    document.getElementById("pick-scores-table"),
+    [
+      { key: "Player", label: "Player", format: value => playerLabel(value) },
+      { key: "Round", label: "Round" }, { key: "Pick", label: "Pick" },
+      { key: "Team", label: "Team" }, { key: "Selection", label: "Picked" },
+      { key: "Points", label: "Points" }
+    ],
+    playerFilter.value ? pickScores.filter(row => row.Player === playerFilter.value) : pickScores
+  );
+  playerFilter.onchange = renderPickScores;
+  renderPickScores();
   renderTable(document.getElementById("historical-table"), [
     { key: "Season", label: "Season" },
-    { key: "Player", label: "Player", format: (value, row) => historicalPlayerLabel(value, row) },
-    { key: "Points", label: "Points" },
-    { key: "Champion", label: "Result", format: value => value ? "★ Champion" : "" }
-  ], data.historical || []);
+    { key: "Champion", label: "Champion", format: value => playerLabel(value) },
+    { key: "Points", label: "Winning points" }
+  ], data.historicalSeasons || []);
+  document.getElementById("historical-details").innerHTML = (data.historicalSeasons || []).map(season => `
+    <div class="history-season">
+      <h3>${season.Season} final standings</h3>
+      <ol>${season.Standings.map(row => `<li class="${row.Player === season.Champion ? "history-champion" : ""}">
+        <span>${row.Player === season.Champion ? "🏆 " : ""}${row.Player}</span><strong>${row.Points}</strong>
+      </li>`).join("")}</ol>
+    </div>`).join("");
 
   const filter = document.getElementById("team-filter");
   filter.oninput = () => {

@@ -174,6 +174,19 @@ def main():
         for index, row in enumerate(player_scores)
     }
     historical, prior_champions = historical_summary()
+    historical_seasons = []
+    for season in sorted({row["Season"] for row in historical}):
+        season_rows = [row for row in historical if row["Season"] == season]
+        champion = next(row for row in season_rows if row["Champion"])
+        historical_seasons.append({
+            "Season": season,
+            "Champion": champion["Player"],
+            "Points": champion["Points"],
+            "Standings": [
+                {"Player": row["Player"], "Points": row["Points"]}
+                for row in season_rows
+            ],
+        })
 
     payload = {
         "title": "NFL Draft League 2026",
@@ -191,6 +204,7 @@ def main():
         "weeklyScores": weekly_scores,
         "historical": historical,
         "priorChampions": prior_champions,
+        "historicalSeasons": historical_seasons,
     }
     payload["pickScores"] = [
         {
