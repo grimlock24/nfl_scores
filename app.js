@@ -8,6 +8,10 @@ const playerLabel = player => champions.has(player)
   : player;
 const historicalPlayerLabel = (player, row) => row.Champion ? playerLabel(player) : player;
 const playerText = player => champions.has(player) ? `${player} ★` : player;
+const divisionOrder = [
+  "AFC East", "AFC North", "AFC South", "AFC West",
+  "NFC East", "NFC North", "NFC South", "NFC West"
+];
 
 function renderTable(element, columns, rows) {
   element.innerHTML = `<thead><tr>${columns.map(c => cell(c.label, "th")).join("")}</tr></thead><tbody>${
@@ -42,7 +46,11 @@ function render(data) {
       ${playersOfWeek.length ? `<span>${playerOfWeek.points} points in ${playerOfWeek.week}</span>` : ""}
     </div>`;
 
-  const standings = data.standings || [];
+  const standings = [...(data.standings || [])].sort((a, b) => {
+    const divisionDifference = divisionOrder.indexOf(a.Division) - divisionOrder.indexOf(b.Division);
+    if (divisionDifference) return divisionDifference;
+    return String(a.Team).localeCompare(String(b.Team));
+  });
   const columns = [
     { key: "Team", label: "Team" }, { key: "Division", label: "Division" }, { key: "W", label: "W" }, { key: "L", label: "L" },
     { key: "T", label: "T" }, { key: "PCT", label: "PCT", format: formatPct },
