@@ -2,12 +2,13 @@ let scoreChart;
 
 const formatPct = value => `${(Number(value) * 100).toFixed(1)}%`;
 const cell = (value, tag = "td") => `<${tag}>${value ?? ""}</${tag}>`;
-const champions = new Set();
-const playerLabel = player => champions.has(player)
+const championKeys = new Set();
+const isChampion = player => championKeys.has(String(player).toLowerCase());
+const playerLabel = player => isChampion(player)
   ? `<span class="player-label"><img class="player-icon" src="NWO%20belt.png" alt="Prior champion">${player}</span>`
   : player;
 const historicalPlayerLabel = (player, row) => row.Champion ? playerLabel(player) : player;
-const playerText = player => champions.has(player) ? `${player} ★` : player;
+const playerText = player => isChampion(player) ? `${player} ★` : player;
 const divisionOrder = [
   "AFC East", "AFC North", "AFC South", "AFC West",
   "NFC East", "NFC North", "NFC South", "NFC West"
@@ -21,7 +22,7 @@ function renderTable(element, columns, rows) {
 
 function render(data) {
   const scores = data.playerScores || [];
-  (data.priorChampions || []).forEach(player => champions.add(player));
+  (data.priorChampions || []).forEach(player => championKeys.add(String(player).toLowerCase()));
   document.title = data.title;
   document.getElementById("title").textContent = data.title;
   document.getElementById("updated").textContent = `Last updated: ${data.updated}`;
