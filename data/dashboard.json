@@ -1,12 +1,11 @@
 {
   "title": "NFL Draft League 2026",
-  "updated": "September 21, 2026 at 10:30 PM",
-  "currentWeek": "week_2",
+  "updated": "September 28, 2026 at 10:44 PM",
+  "currentWeek": "week_3",
   "playerOfWeek": {
-    "week": "week_2",
+    "week": "week_3",
     "players": [
-      "ryan",
-      "christian"
+      "trace"
     ],
     "points": 5
   },
@@ -14,354 +13,354 @@
     {
       "Team": "Buffalo Bills",
       "Division": "AFC East",
-      "W": 2,
+      "W": 3,
       "L": 0,
       "T": 0,
       "PCT": 1.0,
-      "PF": 77,
-      "PA": 62,
-      "STRK": "2W"
-    },
-    {
-      "Team": "Kansas City Chiefs",
-      "Division": "AFC West",
-      "W": 2,
-      "L": 0,
-      "T": 0,
-      "PCT": 1.0,
-      "PF": 64,
-      "PA": 40,
-      "STRK": "2W"
+      "PF": 101,
+      "PA": 78,
+      "STRK": "3W"
     },
     {
       "Team": "San Francisco 49ers",
       "Division": "NFC West",
-      "W": 2,
+      "W": 3,
       "L": 0,
       "T": 0,
       "PCT": 1.0,
-      "PF": 62,
-      "PA": 20,
-      "STRK": "2W"
+      "PF": 98,
+      "PA": 50,
+      "STRK": "3W"
+    },
+    {
+      "Team": "Kansas City Chiefs",
+      "Division": "AFC West",
+      "W": 3,
+      "L": 0,
+      "T": 0,
+      "PCT": 1.0,
+      "PF": 88,
+      "PA": 50,
+      "STRK": "3W"
     },
     {
       "Team": "Las Vegas Raiders",
       "Division": "AFC West",
-      "W": 2,
+      "W": 3,
       "L": 0,
       "T": 0,
       "PCT": 1.0,
-      "PF": 53,
-      "PA": 27,
-      "STRK": "2W"
+      "PF": 88,
+      "PA": 54,
+      "STRK": "3W"
+    },
+    {
+      "Team": "Minnesota Vikings",
+      "Division": "NFC North",
+      "W": 3,
+      "L": 0,
+      "T": 0,
+      "PCT": 1.0,
+      "PF": 71,
+      "PA": 41,
+      "STRK": "3W"
+    },
+    {
+      "Team": "Detroit Lions",
+      "Division": "NFC North",
+      "W": 2,
+      "L": 1,
+      "T": 0,
+      "PCT": 0.6666666666666666,
+      "PF": 93,
+      "PA": 95,
+      "STRK": "1W"
+    },
+    {
+      "Team": "Baltimore Ravens",
+      "Division": "AFC North",
+      "W": 2,
+      "L": 1,
+      "T": 0,
+      "PCT": 0.6666666666666666,
+      "PF": 92,
+      "PA": 78,
+      "STRK": "1W"
+    },
+    {
+      "Team": "Chicago Bears",
+      "Division": "NFC North",
+      "W": 2,
+      "L": 1,
+      "T": 0,
+      "PCT": 0.6666666666666666,
+      "PF": 89,
+      "PA": 53,
+      "STRK": "1W"
+    },
+    {
+      "Team": "Jacksonville Jaguars",
+      "Division": "AFC South",
+      "W": 2,
+      "L": 1,
+      "T": 0,
+      "PCT": 0.6666666666666666,
+      "PF": 82,
+      "PA": 36,
+      "STRK": "1W"
     },
     {
       "Team": "Cincinnati Bengals",
       "Division": "AFC North",
       "W": 2,
-      "L": 0,
+      "L": 1,
       "T": 0,
-      "PCT": 1.0,
-      "PF": 53,
-      "PA": 33,
-      "STRK": "2W"
+      "PCT": 0.6666666666666666,
+      "PF": 80,
+      "PA": 63,
+      "STRK": "1L"
     },
     {
-      "Team": "Minnesota Vikings",
-      "Division": "NFC North",
+      "Team": "Seattle Seahawks",
+      "Division": "NFC West",
       "W": 2,
-      "L": 0,
+      "L": 1,
       "T": 0,
-      "PCT": 1.0,
-      "PF": 48,
-      "PA": 25,
+      "PCT": 0.6666666666666666,
+      "PF": 75,
+      "PA": 50,
+      "STRK": "1L"
+    },
+    {
+      "Team": "Denver Broncos",
+      "Division": "AFC West",
+      "W": 2,
+      "L": 1,
+      "T": 0,
+      "PCT": 0.6666666666666666,
+      "PF": 60,
+      "PA": 70,
       "STRK": "2W"
     },
     {
       "Team": "Philadelphia Eagles",
       "Division": "NFC East",
       "W": 2,
-      "L": 0,
+      "L": 1,
       "T": 0,
-      "PCT": 1.0,
-      "PF": 48,
-      "PA": 42,
+      "PCT": 0.6666666666666666,
+      "PF": 55,
+      "PA": 69,
+      "STRK": "1L"
+    },
+    {
+      "Team": "Cleveland Browns",
+      "Division": "AFC North",
+      "W": 2,
+      "L": 1,
+      "T": 0,
+      "PCT": 0.6666666666666666,
+      "PF": 54,
+      "PA": 71,
       "STRK": "2W"
     },
     {
-      "Team": "Seattle Seahawks",
-      "Division": "NFC West",
+      "Team": "Pittsburgh Steelers",
+      "Division": "AFC North",
       "W": 2,
-      "L": 0,
+      "L": 1,
       "T": 0,
-      "PCT": 1.0,
-      "PF": 44,
-      "PA": 17,
-      "STRK": "2W"
+      "PCT": 0.6666666666666666,
+      "PF": 53,
+      "PA": 60,
+      "STRK": "1W"
+    },
+    {
+      "Team": "New York Giants",
+      "Division": "NFC East",
+      "W": 2,
+      "L": 1,
+      "T": 0,
+      "PCT": 0.6666666666666666,
+      "PF": 46,
+      "PA": 55,
+      "STRK": "1W"
     },
     {
       "Team": "Carolina Panthers",
       "Division": "NFC South",
       "W": 1,
-      "L": 1,
+      "L": 2,
       "T": 0,
-      "PCT": 0.5,
-      "PF": 71,
-      "PA": 62,
-      "STRK": "1W"
-    },
-    {
-      "Team": "Chicago Bears",
-      "Division": "NFC North",
-      "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 62,
-      "PA": 46,
-      "STRK": "1L"
-    },
-    {
-      "Team": "Detroit Lions",
-      "Division": "NFC North",
-      "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 62,
-      "PA": 71,
-      "STRK": "1L"
-    },
-    {
-      "Team": "Baltimore Ravens",
-      "Division": "AFC North",
-      "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 58,
-      "PA": 47,
+      "PCT": 0.3333333333333333,
+      "PF": 89,
+      "PA": 83,
       "STRK": "1L"
     },
     {
       "Team": "Dallas Cowboys",
       "Division": "NFC East",
       "W": 1,
-      "L": 1,
+      "L": 2,
       "T": 0,
-      "PCT": 0.5,
-      "PF": 57,
-      "PA": 48,
-      "STRK": "1W"
+      "PCT": 0.3333333333333333,
+      "PF": 88,
+      "PA": 82,
+      "STRK": "1L"
     },
     {
       "Team": "New Orleans Saints",
       "Division": "NFC South",
       "W": 1,
-      "L": 1,
+      "L": 2,
       "T": 0,
-      "PCT": 0.5,
-      "PF": 54,
-      "PA": 48,
-      "STRK": "1W"
-    },
-    {
-      "Team": "Jacksonville Jaguars",
-      "Division": "AFC South",
-      "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 47,
-      "PA": 30,
+      "PCT": 0.3333333333333333,
+      "PF": 81,
+      "PA": 83,
       "STRK": "1L"
     },
     {
-      "Team": "Green Bay Packers",
-      "Division": "NFC North",
+      "Team": "Washington Commanders",
+      "Division": "NFC East",
       "W": 1,
-      "L": 1,
+      "L": 2,
       "T": 0,
-      "PCT": 0.5,
-      "PF": 42,
-      "PA": 56,
+      "PCT": 0.3333333333333333,
+      "PF": 75,
+      "PA": 92,
+      "STRK": "1W"
+    },
+    {
+      "Team": "Indianapolis Colts",
+      "Division": "AFC South",
+      "W": 1,
+      "L": 2,
+      "T": 0,
+      "PCT": 0.3333333333333333,
+      "PF": 72,
+      "PA": 91,
       "STRK": "1W"
     },
     {
       "Team": "New York Jets",
       "Division": "AFC East",
       "W": 1,
-      "L": 1,
+      "L": 2,
       "T": 0,
-      "PCT": 0.5,
-      "PF": 40,
-      "PA": 30,
-      "STRK": "1L"
-    },
-    {
-      "Team": "Los Angeles Rams",
-      "Division": "NFC West",
-      "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 35,
-      "PA": 33,
-      "STRK": "1W"
-    },
-    {
-      "Team": "New York Giants",
-      "Division": "NFC East",
-      "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 34,
-      "PA": 48,
-      "STRK": "1L"
+      "PCT": 0.3333333333333333,
+      "PF": 64,
+      "PA": 61,
+      "STRK": "2L"
     },
     {
       "Team": "Arizona Cardinals",
       "Division": "NFC West",
       "W": 1,
-      "L": 1,
+      "L": 2,
       "T": 0,
-      "PCT": 0.5,
-      "PF": 33,
-      "PA": 45,
+      "PCT": 0.3333333333333333,
+      "PF": 63,
+      "PA": 81,
+      "STRK": "2L"
+    },
+    {
+      "Team": "Los Angeles Rams",
+      "Division": "NFC West",
+      "W": 1,
+      "L": 2,
+      "T": 0,
+      "PCT": 0.3333333333333333,
+      "PF": 61,
+      "PA": 63,
       "STRK": "1L"
     },
     {
-      "Team": "Cleveland Browns",
-      "Division": "AFC North",
+      "Team": "Green Bay Packers",
+      "Division": "NFC North",
       "W": 1,
-      "L": 1,
+      "L": 2,
       "T": 0,
-      "PCT": 0.5,
-      "PF": 33,
-      "PA": 53,
+      "PCT": 0.3333333333333333,
+      "PF": 56,
+      "PA": 91,
+      "STRK": "1L"
+    },
+    {
+      "Team": "Atlanta Falcons",
+      "Division": "NFC South",
+      "W": 1,
+      "L": 2,
+      "T": 0,
+      "PCT": 0.3333333333333333,
+      "PF": 51,
+      "PA": 68,
       "STRK": "1W"
     },
     {
       "Team": "New England Patriots",
       "Division": "AFC East",
       "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 30,
-      "PA": 16,
-      "STRK": "1W"
-    },
-    {
-      "Team": "Denver Broncos",
-      "Division": "AFC West",
-      "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 30,
-      "PA": 44,
-      "STRK": "1W"
-    },
-    {
-      "Team": "Pittsburgh Steelers",
-      "Division": "AFC North",
-      "W": 1,
-      "L": 1,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 23,
-      "PA": 33,
-      "STRK": "1L"
-    },
-    {
-      "Team": "Indianapolis Colts",
-      "Division": "AFC South",
-      "W": 0,
       "L": 2,
       "T": 0,
-      "PCT": 0.0,
-      "PF": 53,
-      "PA": 74,
-      "STRK": "2L"
+      "PCT": 0.3333333333333333,
+      "PF": 36,
+      "PA": 51,
+      "STRK": "1L"
     },
     {
       "Team": "Tampa Bay Buccaneers",
       "Division": "NFC South",
       "W": 0,
-      "L": 2,
+      "L": 3,
       "T": 0,
       "PCT": 0.0,
-      "PF": 46,
-      "PA": 56,
-      "STRK": "2L"
-    },
-    {
-      "Team": "Washington Commanders",
-      "Division": "NFC East",
-      "W": 0,
-      "L": 2,
-      "T": 0,
-      "PCT": 0.0,
-      "PF": 42,
-      "PA": 61,
-      "STRK": "2L"
+      "PF": 62,
+      "PA": 79,
+      "STRK": "3L"
     },
     {
       "Team": "Houston Texans",
       "Division": "AFC South",
       "W": 0,
-      "L": 2,
+      "L": 3,
       "T": 0,
       "PCT": 0.0,
-      "PF": 37,
-      "PA": 56,
-      "STRK": "2L"
-    },
-    {
-      "Team": "Tennessee Titans",
-      "Division": "AFC South",
-      "W": 0,
-      "L": 2,
-      "T": 0,
-      "PCT": 0.0,
-      "PF": 30,
-      "PA": 47,
-      "STRK": "2L"
+      "PF": 54,
+      "PA": 75,
+      "STRK": "3L"
     },
     {
       "Team": "Los Angeles Chargers",
       "Division": "AFC West",
       "W": 0,
-      "L": 2,
+      "L": 3,
       "T": 0,
       "PCT": 0.0,
-      "PF": 28,
-      "PA": 52,
-      "STRK": "2L"
+      "PF": 44,
+      "PA": 76,
+      "STRK": "3L"
+    },
+    {
+      "Team": "Tennessee Titans",
+      "Division": "AFC South",
+      "W": 0,
+      "L": 3,
+      "T": 0,
+      "PCT": 0.0,
+      "PF": 37,
+      "PA": 59,
+      "STRK": "3L"
     },
     {
       "Team": "Miami Dolphins",
       "Division": "AFC East",
       "W": 0,
-      "L": 2,
+      "L": 3,
       "T": 0,
       "PCT": 0.0,
-      "PF": 26,
-      "PA": 62,
-      "STRK": "2L"
-    },
-    {
-      "Team": "Atlanta Falcons",
-      "Division": "NFC South",
-      "W": 0,
-      "L": 2,
-      "T": 0,
-      "PCT": 0.0,
-      "PF": 16,
-      "PA": 54,
-      "STRK": "2L"
+      "PF": 36,
+      "PA": 86,
+      "STRK": "3L"
     }
   ],
   "draft": [
@@ -625,7 +624,7 @@
       "Pick": 3,
       "Team": "Miami Dolphins",
       "Selection": "Losses",
-      "Points": 2
+      "Points": 3
     },
     {
       "Player": "ryan",
@@ -633,7 +632,7 @@
       "Pick": 10,
       "Team": "Buffalo Bills",
       "Selection": "Wins",
-      "Points": 2
+      "Points": 3
     },
     {
       "Player": "ryan",
@@ -668,6 +667,54 @@
       "Points": 1
     },
     {
+      "Player": "trace",
+      "Round": 1,
+      "Pick": 5,
+      "Team": "Tennessee Titans",
+      "Selection": "Losses",
+      "Points": 3
+    },
+    {
+      "Player": "trace",
+      "Round": 2,
+      "Pick": 8,
+      "Team": "New York Jets",
+      "Selection": "Losses",
+      "Points": 2
+    },
+    {
+      "Player": "trace",
+      "Round": 3,
+      "Pick": 17,
+      "Team": "Carolina Panthers",
+      "Selection": "Losses",
+      "Points": 2
+    },
+    {
+      "Player": "trace",
+      "Round": 4,
+      "Pick": 20,
+      "Team": "Indianapolis Colts",
+      "Selection": "Losses",
+      "Points": 2
+    },
+    {
+      "Player": "trace",
+      "Round": 5,
+      "Pick": 29,
+      "Team": "Dallas Cowboys",
+      "Selection": "Losses",
+      "Points": 2
+    },
+    {
+      "Player": "trace",
+      "Round": 6,
+      "Pick": 32,
+      "Team": "Denver Broncos",
+      "Selection": "Wins",
+      "Points": 2
+    },
+    {
       "Player": "christian",
       "Round": 1,
       "Pick": 6,
@@ -697,7 +744,7 @@
       "Pick": 19,
       "Team": "New Orleans Saints",
       "Selection": "Losses",
-      "Points": 1
+      "Points": 2
     },
     {
       "Player": "christian",
@@ -705,7 +752,7 @@
       "Pick": 30,
       "Team": "Minnesota Vikings",
       "Selection": "Wins",
-      "Points": 2
+      "Points": 3
     },
     {
       "Player": "christian",
@@ -713,55 +760,7 @@
       "Pick": 31,
       "Team": "Denver Broncos",
       "Selection": "Wins",
-      "Points": 1
-    },
-    {
-      "Player": "trace",
-      "Round": 1,
-      "Pick": 5,
-      "Team": "Tennessee Titans",
-      "Selection": "Losses",
       "Points": 2
-    },
-    {
-      "Player": "trace",
-      "Round": 2,
-      "Pick": 8,
-      "Team": "New York Jets",
-      "Selection": "Losses",
-      "Points": 1
-    },
-    {
-      "Player": "trace",
-      "Round": 3,
-      "Pick": 17,
-      "Team": "Carolina Panthers",
-      "Selection": "Losses",
-      "Points": 1
-    },
-    {
-      "Player": "trace",
-      "Round": 4,
-      "Pick": 20,
-      "Team": "Indianapolis Colts",
-      "Selection": "Losses",
-      "Points": 2
-    },
-    {
-      "Player": "trace",
-      "Round": 5,
-      "Pick": 29,
-      "Team": "Dallas Cowboys",
-      "Selection": "Losses",
-      "Points": 1
-    },
-    {
-      "Player": "trace",
-      "Round": 6,
-      "Pick": 32,
-      "Team": "Denver Broncos",
-      "Selection": "Wins",
-      "Points": 1
     },
     {
       "Player": "billy",
@@ -769,7 +768,7 @@
       "Pick": 2,
       "Team": "Baltimore Ravens",
       "Selection": "Wins",
-      "Points": 1
+      "Points": 2
     },
     {
       "Player": "billy",
@@ -777,7 +776,7 @@
       "Pick": 11,
       "Team": "Kansas City Chiefs",
       "Selection": "Wins",
-      "Points": 2
+      "Points": 3
     },
     {
       "Player": "billy",
@@ -785,7 +784,7 @@
       "Pick": 14,
       "Team": "San Francisco 49ers",
       "Selection": "Wins",
-      "Points": 2
+      "Points": 3
     },
     {
       "Player": "billy",
@@ -793,7 +792,7 @@
       "Pick": 23,
       "Team": "Chicago Bears",
       "Selection": "Wins",
-      "Points": 1
+      "Points": 2
     },
     {
       "Player": "billy",
@@ -817,7 +816,7 @@
       "Pick": 1,
       "Team": "Arizona Cardinals",
       "Selection": "Losses",
-      "Points": 1
+      "Points": 2
     },
     {
       "Player": "alexander",
@@ -849,7 +848,7 @@
       "Pick": 25,
       "Team": "New York Giants",
       "Selection": "Wins",
-      "Points": 1
+      "Points": 2
     },
     {
       "Player": "alexander",
@@ -857,7 +856,7 @@
       "Pick": 36,
       "Team": "Denver Broncos",
       "Selection": "Wins",
-      "Points": 1
+      "Points": 2
     },
     {
       "Player": "stup",
@@ -873,7 +872,7 @@
       "Pick": 9,
       "Team": "Detroit Lions",
       "Selection": "Wins",
-      "Points": 1
+      "Points": 2
     },
     {
       "Player": "stup",
@@ -889,7 +888,7 @@
       "Pick": 21,
       "Team": "Jacksonville Jaguars",
       "Selection": "Wins",
-      "Points": 1
+      "Points": 2
     },
     {
       "Player": "stup",
@@ -911,49 +910,49 @@
   "playerScores": [
     {
       "Player": "ryan",
-      "Points": 11,
-      "Correct": 11,
-      "Graded": 12,
-      "Accuracy": 0.9166666666666666,
+      "Points": 13,
+      "Correct": 13,
+      "Graded": 18,
+      "Accuracy": 0.7222222222222222,
+      "PointsBack": 0
+    },
+    {
+      "Player": "trace",
+      "Points": 13,
+      "Correct": 13,
+      "Graded": 18,
+      "Accuracy": 0.7222222222222222,
       "PointsBack": 0
     },
     {
       "Player": "christian",
-      "Points": 9,
-      "Correct": 9,
-      "Graded": 12,
-      "Accuracy": 0.75,
-      "PointsBack": 2
-    },
-    {
-      "Player": "trace",
-      "Points": 8,
-      "Correct": 8,
-      "Graded": 12,
+      "Points": 12,
+      "Correct": 12,
+      "Graded": 18,
       "Accuracy": 0.6666666666666666,
-      "PointsBack": 3
+      "PointsBack": 1
     },
     {
       "Player": "billy",
-      "Points": 6,
-      "Correct": 6,
-      "Graded": 12,
-      "Accuracy": 0.5,
-      "PointsBack": 5
+      "Points": 10,
+      "Correct": 10,
+      "Graded": 18,
+      "Accuracy": 0.5555555555555556,
+      "PointsBack": 3
     },
     {
       "Player": "alexander",
-      "Points": 5,
-      "Correct": 5,
-      "Graded": 12,
-      "Accuracy": 0.4166666666666667,
-      "PointsBack": 6
+      "Points": 8,
+      "Correct": 8,
+      "Graded": 18,
+      "Accuracy": 0.4444444444444444,
+      "PointsBack": 5
     },
     {
       "Player": "stup",
-      "Points": 4,
-      "Correct": 4,
-      "Graded": 12,
+      "Points": 6,
+      "Correct": 6,
+      "Graded": 18,
       "Accuracy": 0.3333333333333333,
       "PointsBack": 7
     }
@@ -974,6 +973,14 @@
       "stup": 1,
       "trace": 4,
       "christian": 5
+    },
+    "week_3": {
+      "alexander": 3,
+      "billy": 4,
+      "ryan": 2,
+      "stup": 2,
+      "trace": 5,
+      "christian": 3
     }
   },
   "historical": [
