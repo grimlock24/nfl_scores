@@ -28,6 +28,9 @@ function render(data) {
   document.getElementById("title").textContent = data.title;
   document.getElementById("updated").textContent = `Last updated: ${data.updated}`;
   document.getElementById("week-label").textContent = data.currentWeek || "Season";
+  document.getElementById("possible-points-note").textContent = data.possiblePointsAvailable
+    ? "Max possible accounts for each remaining matchup: conflicting picks against both teams can earn only the points allowed by one game result. A player is eliminated only if they can no longer tie the leader."
+    : `Maximum points and elimination status are unavailable until the full 2026 schedule is saved (currently ${data.scheduleGameCount || 0} of 272 games). Run the full ESPN refresh to load it.`;
 
   renderTable(document.getElementById("leaderboard-table"), [
     { key: "Rank", label: "#", format: (_, row) => scores.indexOf(row) + 1 },
@@ -36,7 +39,10 @@ function render(data) {
     { key: "Correct", label: "Correct" },
     { key: "Graded", label: "Graded" },
     { key: "Accuracy", label: "Accuracy", format: formatPct },
-    { key: "PointsBack", label: "Back" }
+    { key: "PointsBack", label: "Back" },
+    { key: "MaxPossible", label: "Max possible", format: value => value == null ? "—" : value },
+    { key: "PointsRemaining", label: "Still available", format: value => value == null ? "—" : value },
+    { key: "Status", label: "Status" }
   ], scores);
 
   const playerOfWeek = data.playerOfWeek || {};
