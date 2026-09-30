@@ -1,4 +1,5 @@
 let scoreChart;
+let binomialChart;
 
 const formatPct = value => `${(Number(value) * 100).toFixed(1)}%`;
 const cell = (value, tag = "td") => `<${tag}>${value ?? ""}</${tag}>`;
@@ -114,8 +115,95 @@ function render(data) {
   });
   if (scoreChart) scoreChart.destroy();
   scoreChart = new Chart(document.getElementById("score-chart"), { type: "line", data: { labels, datasets }, options: { responsive: true, plugins: { legend: { position: "bottom" } }, scales: { y: { beginAtZero: true } } } });
+
+  const binomialRows = data.binomialOdds || [];
+  const binomialPlayers = [...new Set(binomialRows.map(row => row.Player))].sort();
+  const binomialFilter = document.getElementById("binomial-player-filter");
+  const previousBinomialPlayer = binomialFilter.value;
+  binomialFilter.innerHTML = binomialPlayers.map(player =>
+    `<option value="${player}">${player}</option>`
+  ).join("");
+  if (binomialPlayers.includes(previousBinomialPlayer)) {
+    binomialFilter.value = previousBinomialPlayer;
+  }
+  const renderBinomialChart = () => {
+    const selectedPlayer = binomialFilter.value || binomialPlayers[0];
+    const playerRows = binomialRows
+      .filter(row => row.Player === selectedPlayer)
+      .sort((a, b) => a.CorrectPicks - b.CorrectPicks);
+    const mostLikelyOutcome = playerRows.reduce(
+      (best, row) => !best || row.Probability > best.Probability ? row : best,
+      null
+    );
+    document.getElementById("binomial-summary").textContent = mostLikelyOutcome
+      ? `${selectedPlayer}'s most likely result is ${mostLikelyOutcome.CorrectPicks} correct pick${mostLikelyOutcome.CorrectPicks === 1 ? "" : "s"} (${Number(mostLikelyOutcome.Probability).toFixed(1)}%).`
+      : "No player pick probabilities were found in the workbook.";
+    if (binomialChart) binomialChart.destroy();
+    binomialChart = new Chart(document.getElementById("binomial-chart"), {
+      type: "bar",
+      data: {
+        labels: playerRows.map(row => row.CorrectPicks),
+        datasets: [{
+          label: "Probability",
+          data: playerRows.map(row => row.Probability),
+          backgroundColor: "#3978c5",
+          borderRadius: 5
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: context => `${Number(context.raw).toFixed(1)}% chance` } }
+        },
+        scales: {
+          x: { title: { display: true, text: "Correct picks" }, ticks: { precision: 0 } },
+          y: {
+            beginAtZero: true,
+            suggestedMax: 100,
+            title: { display: true, text: "Probability" },
+            ticks: { callback: value => `${value}%` }
+          }
+        }
+      }
+    });
+  };
+  binomialFilter.onchange = renderBinomialChart;
+  renderBinomialChart();
+
+  const matchupRows = (data.weeklyOdds || []).map(row => {
+    const teamProbability = Number(row.WinProbability);
+    const opponentProbability = Number(row.OpponentProbability);
+    const teamIsFavorite = teamProbability >= opponentProbability;
+    return {
+      GameTime: row.GameTime,
+      Favorite: teamIsFavorite ? row.Team : row.Opponent,
+      Opponent: teamIsFavorite ? row.Opponent : row.Team,
+      FavoriteProbability: Math.max(teamProbability, opponentProbability)
+    };
+  });
+  renderTable(document.getElementById("weekly-odds-table"), [
+    { key: "GameTime", label: "Game time" },
+    { key: "Favorite", label: "Most likely winner" },
+    { key: "Opponent", label: "Opponent" },
+    { key: "FavoriteProbability", label: "Win probability", format: value => `${Number(value).toFixed(1)}%` }
+  ], matchupRows);
+  document.getElementById("weekly-odds-note").textContent = data.weeklyOdds?.length
+    ? `${data.weeklyOdds.length} matchups from the workbook's Weekly Odds sheet.`
+    : "No upcoming team odds were found in the workbook.";
+  renderTable(document.getElementById("odds-performance-table"), [
+    { key: "GameTime", label: "Game time" },
+    { key: "Team", label: "Team" },
+    { key: "Opponent", label: "Opponent" },
+    { key: "WinProbability", label: "Win chance", format: value => `${Number(value).toFixed(1)}%` },
+    { key: "Actual", label: "Actual" },
+    { key: "Assessment", label: "Vs odds" }
+  ], data.oddsPerformance || []);
+  document.getElementById("odds-performance-note").textContent = data.oddsPerformance?.length
+    ? "Completed games are compared with saved pregame win probabilities."
+    : "No completed games with saved odds and game dates yet. Run the updated scraper, then generate and publish the dashboard before kickoff to preserve forecasts for comparison.";
 }
 
-fetch(`dashboard.json?updated=${Date.now()}`).then(response => response.json()).then(render).catch(error => {
+fetch(`data/dashboard.json?updated=${Date.now()}`).then(response => response.json()).then(render).catch(error => {
   document.getElementById("updated").textContent = `Unable to load dashboard data: ${error.message}`;
 });

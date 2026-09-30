@@ -37,13 +37,29 @@
         <canvas id="score-chart" aria-label="Cumulative player scores"></canvas>
       </div>
       <div class="card odds-card">
-        <div class="section-heading"><h2>Weekly odds</h2><span class="construction">SOON</span></div>
-        <div class="under-construction">
-          <div class="construction-icon">🏗</div>
-          <h3>Under construction</h3>
-          <p>Weekly odds will appear here once the projection model is ready.</p>
+        <div class="section-heading">
+          <div><p class="eyebrow">PICK FORECAST</p><h2>Odds by player</h2></div>
+          <select id="binomial-player-filter" class="filter" aria-label="Select player probability chart"></select>
         </div>
+        <p id="binomial-summary" class="odds-note"></p>
+        <canvas id="binomial-chart" aria-label="Chance of player correct pick totals"></canvas>
       </div>
+    </section>
+
+    <section class="card">
+      <div class="section-heading">
+        <div><p class="eyebrow">GAME FORECAST</p><h2>Most likely team outcomes</h2></div>
+      </div>
+      <p id="weekly-odds-note" class="odds-note">The favorite and its chance to win, based on the workbook probabilities.</p>
+      <div class="table-wrap"><table id="weekly-odds-table"></table></div>
+    </section>
+
+    <section class="card">
+      <div class="section-heading">
+        <div><p class="eyebrow">MODEL CHECK</p><h2>Team results vs. odds</h2></div>
+      </div>
+      <p id="odds-performance-note" class="odds-note"></p>
+      <div class="table-wrap"><table id="odds-performance-table"></table></div>
     </section>
 
     <section class="card">
