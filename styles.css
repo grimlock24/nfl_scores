@@ -45,6 +45,8 @@ h2 { margin-bottom: 0; font-size: 1.2rem; }
 .history-season li { display: flex; justify-content: space-between; padding: 5px 0; color: var(--muted); }
 .history-season li strong { color: var(--ink); }
 .history-season .history-champion { color: #8d5a0b; font-weight: 700; }
+.odds-card { min-width: 0; }
+.odds-note { color: var(--muted); font-size: .85rem; margin: -8px 0 12px; }
 .pick-win { color: #18794e; font-weight: 700; }
 .pill { white-space: nowrap; }
 .table-wrap { overflow-x: auto; } table { width: 100%; border-collapse: collapse; font-size: .88rem; } th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; } th { color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; } tr:last-child td { border-bottom: 0; } td:not(:first-child), th:not(:first-child) { text-align: right; }
