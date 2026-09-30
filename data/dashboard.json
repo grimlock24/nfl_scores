@@ -1,6 +1,6 @@
 {
   "title": "NFL Draft League 2026",
-  "updated": "September 29, 2026 at 6:57 PM",
+  "updated": "September 29, 2026 at 8:19 PM",
   "currentWeek": "week_3",
   "playerOfWeek": {
     "week": "week_3",
@@ -914,7 +914,10 @@
       "Correct": 13,
       "Graded": 18,
       "Accuracy": 0.7222222222222222,
-      "PointsBack": 0
+      "PointsBack": 0,
+      "MaxPossible": 96,
+      "PointsRemaining": 83,
+      "Status": "In contention"
     },
     {
       "Player": "trace",
@@ -922,7 +925,10 @@
       "Correct": 13,
       "Graded": 18,
       "Accuracy": 0.7222222222222222,
-      "PointsBack": 0
+      "PointsBack": 0,
+      "MaxPossible": 93,
+      "PointsRemaining": 80,
+      "Status": "In contention"
     },
     {
       "Player": "christian",
@@ -930,7 +936,10 @@
       "Correct": 12,
       "Graded": 18,
       "Accuracy": 0.6666666666666666,
-      "PointsBack": 1
+      "PointsBack": 1,
+      "MaxPossible": 91,
+      "PointsRemaining": 79,
+      "Status": "In contention"
     },
     {
       "Player": "billy",
@@ -938,7 +947,10 @@
       "Correct": 10,
       "Graded": 18,
       "Accuracy": 0.5555555555555556,
-      "PointsBack": 3
+      "PointsBack": 3,
+      "MaxPossible": 86,
+      "PointsRemaining": 76,
+      "Status": "In contention"
     },
     {
       "Player": "alexander",
@@ -946,7 +958,10 @@
       "Correct": 8,
       "Graded": 18,
       "Accuracy": 0.4444444444444444,
-      "PointsBack": 5
+      "PointsBack": 5,
+      "MaxPossible": 90,
+      "PointsRemaining": 82,
+      "Status": "In contention"
     },
     {
       "Player": "stup",
@@ -954,9 +969,14 @@
       "Correct": 6,
       "Graded": 18,
       "Accuracy": 0.3333333333333333,
-      "PointsBack": 7
+      "PointsBack": 7,
+      "MaxPossible": 85,
+      "PointsRemaining": 79,
+      "Status": "In contention"
     }
   ],
+  "possiblePointsAvailable": true,
+  "scheduleGameCount": 272,
   "weeklyScores": {
     "week_1": {
       "alexander": 1,
