@@ -29,7 +29,7 @@ function render(data) {
   document.getElementById("updated").textContent = `Last updated: ${data.updated}`;
   document.getElementById("week-label").textContent = data.currentWeek || "Season";
   document.getElementById("possible-points-note").textContent = data.possiblePointsAvailable
-    ? "Max possible accounts for each remaining matchup: conflicting picks against both teams can earn only the points allowed by one game result. A player is eliminated only if they can no longer tie the leader."
+    ? "Starting max: the most points a player could have scored with all 272 games unplayed. Still possible max: points already earned plus the best case from games left. Still available: points left to earn. Conflicting picks in one game count once. A player is eliminated only if they can no longer tie the leader."
     : `Maximum points and elimination status are unavailable until the full 2026 schedule is saved (currently ${data.scheduleGameCount || 0} of 272 games). Run the full ESPN refresh to load it.`;
 
   renderTable(document.getElementById("leaderboard-table"), [
@@ -40,7 +40,8 @@ function render(data) {
     { key: "Graded", label: "Graded" },
     { key: "Accuracy", label: "Accuracy", format: formatPct },
     { key: "PointsBack", label: "Back" },
-    { key: "MaxPossible", label: "Max possible", format: value => value == null ? "—" : value },
+    { key: "StartingMax", label: "Starting max", format: value => value == null ? "—" : value },
+    { key: "MaxPossible", label: "Still possible max", format: value => value == null ? "—" : value },
     { key: "PointsRemaining", label: "Still available", format: value => value == null ? "—" : value },
     { key: "Status", label: "Status" }
   ], scores);
@@ -141,8 +142,9 @@ function render(data) {
       (best, row) => !best || row.Probability > best.Probability ? row : best,
       null
     );
+    const forecastLabel = data.forecastWeek ? `Week ${data.forecastWeek.replace("week_", "")} forecast: ` : "";
     document.getElementById("binomial-summary").textContent = mostLikelyOutcome
-      ? `${selectedPlayer}'s most likely result is ${mostLikelyOutcome.CorrectPicks} correct pick${mostLikelyOutcome.CorrectPicks === 1 ? "" : "s"} (${Number(mostLikelyOutcome.Probability).toFixed(1)}%).`
+      ? `${forecastLabel}${selectedPlayer}'s most likely result is ${mostLikelyOutcome.CorrectPicks} correct pick${mostLikelyOutcome.CorrectPicks === 1 ? "" : "s"} (${Number(mostLikelyOutcome.Probability).toFixed(1)}%).`
       : "No player pick probabilities were found in the workbook.";
     if (binomialChart) binomialChart.destroy();
     binomialChart = new Chart(document.getElementById("binomial-chart"), {
@@ -177,6 +179,32 @@ function render(data) {
   binomialFilter.onchange = renderBinomialChart;
   renderBinomialChart();
 
+  const reflections = data.playerReflections || [];
+  const reflectionWeeks = [...new Set(reflections.map(row => row.Week))];
+  const reflectionFilter = document.getElementById("reflection-week-filter");
+  const previousReflectionWeek = reflectionFilter.value;
+  reflectionFilter.innerHTML = reflectionWeeks.map(week =>
+    `<option value="${week}">${week.replace("week_", "Week ")}</option>`
+  ).join("");
+  reflectionFilter.value = reflectionWeeks.includes(previousReflectionWeek)
+    ? previousReflectionWeek
+    : reflectionWeeks[reflectionWeeks.length - 1] || "";
+  const renderReflections = () => {
+    const rows = reflections.filter(row => row.Week === reflectionFilter.value);
+    document.getElementById("reflection-note").textContent = rows.length
+      ? "Each player's most likely score from the saved pre-game forecast, compared with what they actually scored."
+      : "No saved forecasts to compare yet. Forecasts are saved each time the dashboard is generated.";
+    renderTable(document.getElementById("reflection-table"), [
+      { key: "Player", label: "Player", format: value => playerLabel(value) },
+      { key: "LikelyPoints", label: "Predicted", format: (value, row) => `${value} pts (${Number(row.LikelyProbability).toFixed(1)}%)` },
+      { key: "ExpectedPoints", label: "Expected avg" },
+      { key: "ActualPoints", label: "Actual", format: (value, row) => `${value} pts (${Number(row.ActualProbability).toFixed(1)}% chance)` },
+      { key: "Result", label: "Result" }
+    ], rows);
+  };
+  reflectionFilter.onchange = renderReflections;
+  renderReflections();
+
   const matchupRows = (data.weeklyOdds || []).map(row => {
     const teamProbability = Number(row.WinProbability);
     const opponentProbability = Number(row.OpponentProbability);
@@ -195,7 +223,7 @@ function render(data) {
     { key: "FavoriteProbability", label: "Win probability", format: value => `${Number(value).toFixed(1)}%` }
   ], matchupRows);
   document.getElementById("weekly-odds-note").textContent = data.weeklyOdds?.length
-    ? `${data.weeklyOdds.length} matchups from the workbook's Weekly Odds sheet.`
+    ? `${data.forecastWeek ? `Week ${data.forecastWeek.replace("week_", "")}: ` : ""}${data.weeklyOdds.length} matchups from the workbook's Weekly Odds sheet.`
     : "No upcoming team odds were found in the workbook.";
   renderTable(document.getElementById("odds-performance-table"), [
     { key: "GameTime", label: "Game time" },

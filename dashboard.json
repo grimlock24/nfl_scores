@@ -1,6 +1,6 @@
 {
   "title": "NFL Draft League 2026",
-  "updated": "October 5, 2026 at 9:22 PM",
+  "updated": "October 5, 2026 at 10:23 PM",
   "currentWeek": "week_4",
   "playerOfWeek": {
     "week": "week_4",
@@ -915,6 +915,7 @@
       "Graded": 24,
       "Accuracy": 0.6666666666666666,
       "PointsBack": 0,
+      "StartingMax": 96,
       "MaxPossible": 90,
       "PointsRemaining": 74,
       "Status": "In contention"
@@ -926,6 +927,7 @@
       "Graded": 24,
       "Accuracy": 0.6666666666666666,
       "PointsBack": 0,
+      "StartingMax": 101,
       "MaxPossible": 93,
       "PointsRemaining": 77,
       "Status": "In contention"
@@ -937,6 +939,7 @@
       "Graded": 24,
       "Accuracy": 0.625,
       "PointsBack": 1,
+      "StartingMax": 97,
       "MaxPossible": 89,
       "PointsRemaining": 74,
       "Status": "In contention"
@@ -948,6 +951,7 @@
       "Graded": 24,
       "Accuracy": 0.5833333333333334,
       "PointsBack": 2,
+      "StartingMax": 94,
       "MaxPossible": 84,
       "PointsRemaining": 70,
       "Status": "In contention"
@@ -959,6 +963,7 @@
       "Graded": 24,
       "Accuracy": 0.5416666666666666,
       "PointsBack": 3,
+      "StartingMax": 98,
       "MaxPossible": 89,
       "PointsRemaining": 76,
       "Status": "In contention"
@@ -970,6 +975,7 @@
       "Graded": 24,
       "Accuracy": 0.3333333333333333,
       "PointsBack": 8,
+      "StartingMax": 97,
       "MaxPossible": 82,
       "PointsRemaining": 74,
       "Status": "In contention"
@@ -1233,8 +1239,8 @@
       "GameTime": "Oct 11, 9:30 AM ET",
       "Team": "Philadelphia Eagles",
       "Opponent": "Jacksonville Jaguars",
-      "WinProbability": 27.5,
-      "OpponentProbability": 72.5
+      "WinProbability": 26.9,
+      "OpponentProbability": 73.1
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -1571,15 +1577,15 @@
       "GameTime": "Oct 11, 9:30 AM ET",
       "Team": "Philadelphia Eagles",
       "Opponent": "Jacksonville Jaguars",
-      "WinProbability": 27.5,
-      "LoseProbability": 72.5
+      "WinProbability": 26.9,
+      "LoseProbability": 73.1
     },
     {
       "GameTime": "Oct 11, 9:30 AM ET",
       "Team": "Jacksonville Jaguars",
       "Opponent": "Philadelphia Eagles",
-      "WinProbability": 72.5,
-      "LoseProbability": 27.5
+      "WinProbability": 73.1,
+      "LoseProbability": 26.9
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2137,85 +2143,85 @@
       "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 0,
-      "Probability": 1.06216879969122
+      "Probability": 1.070959162171423
     },
     {
       "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 1,
-      "Probability": 8.820020385094882
+      "Probability": 8.88088901934366
     },
     {
       "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 2,
-      "Probability": 26.0792508566573
+      "Probability": 26.19899776481035
     },
     {
       "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 3,
-      "Probability": 34.1587253285976
+      "Probability": 34.18016870389354
     },
     {
       "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 4,
-      "Probability": 22.0971830279463
+      "Probability": 21.98922967344934
     },
     {
       "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 5,
-      "Probability": 6.939339808063679
+      "Probability": 6.854843412432459
     },
     {
       "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 6,
-      "Probability": 0.8433117939490201
+      "Probability": 0.824912263899223
     },
     {
       "Player": "stup",
       "Picks": 6,
       "CorrectPicks": 0,
-      "Probability": 0.4774560090300001
+      "Probability": 0.4670387870148001
     },
     {
       "Player": "stup",
       "Picks": 6,
       "CorrectPicks": 1,
-      "Probability": 4.61309346377
+      "Probability": 4.5503249591612
     },
     {
       "Player": "stup",
       "Picks": 6,
       "CorrectPicks": 2,
-      "Probability": 17.4429095832
+      "Probability": 17.328466925472
     },
     {
       "Player": "stup",
       "Picks": 6,
       "CorrectPicks": 3,
-      "Probability": 32.4261078489
+      "Probability": 32.400914166204
     },
     {
       "Player": "stup",
       "Picks": 6,
       "CorrectPicks": 4,
-      "Probability": 30.35624418095
+      "Probability": 30.467824551722
     },
     {
       "Player": "stup",
       "Picks": 6,
       "CorrectPicks": 5,
-      "Probability": 12.90734638557
+      "Probability": 12.9938831781612
     },
     {
       "Player": "stup",
       "Picks": 6,
       "CorrectPicks": 6,
-      "Probability": 1.77684252858
+      "Probability": 1.7915474322648
     },
     {
       "Player": "trace",
@@ -2294,6 +2300,573 @@
       "Picks": 6,
       "CorrectPicks": 6,
       "Probability": 4.556124228072186
+    }
+  ],
+  "binomialArchive": {
+    "week_5": [
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.5878810489122721
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 5.013958407821568
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 17.29875169240808
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 30.71922837390656
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 29.39630491193208
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 14.25761995220237
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 2.726255612817072
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 0,
+        "Probability": 5.240863980126
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 1,
+        "Probability": 22.50990897657
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 2,
+        "Probability": 36.00101239246001
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 3,
+        "Probability": 26.43156916194
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 4,
+        "Probability": 8.78986869183
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 5,
+        "Probability": 1.026776797074
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 1.070959162171423
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 8.88088901934366
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 26.19899776481035
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 34.18016870389354
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 21.98922967344934
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 6.854843412432459
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 0.824912263899223
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.4670387870148001
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 4.5503249591612
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 17.328466925472
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 32.400914166204
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 30.467824551722
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 12.9938831781612
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 1.7915474322648
+      },
+      {
+        "Player": "trace",
+        "Picks": 5,
+        "CorrectPicks": 0,
+        "Probability": 2.10228654888
+      },
+      {
+        "Player": "trace",
+        "Picks": 5,
+        "CorrectPicks": 1,
+        "Probability": 13.77027330559999
+      },
+      {
+        "Player": "trace",
+        "Picks": 5,
+        "CorrectPicks": 2,
+        "Probability": 32.6434805888
+      },
+      {
+        "Player": "trace",
+        "Picks": 5,
+        "CorrectPicks": 3,
+        "Probability": 34.20855291119999
+      },
+      {
+        "Player": "trace",
+        "Picks": 5,
+        "CorrectPicks": 4,
+        "Probability": 15.1599264444
+      },
+      {
+        "Player": "trace",
+        "Picks": 5,
+        "CorrectPicks": 5,
+        "Probability": 2.11548020112
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.407790286777386
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 3.700455075340884
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 13.92420785893479
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 27.81441887530428
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 31.11389116540879
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 18.48311251016169
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 4.556124228072186
+      }
+    ],
+    "week_4": [
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.7636688116313342
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 6.032210442307194
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 19.190735246394013
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 31.389279358725307
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 27.773713847918014
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 12.578728161087996
+      },
+      {
+        "Player": "alexander",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 2.271664131936135
+      },
+      {
+        "Player": "billy",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.32908805568338395
+      },
+      {
+        "Player": "billy",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 3.9520501022658956
+      },
+      {
+        "Player": "billy",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 16.66554560831976
+      },
+      {
+        "Player": "billy",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 32.62739143039432
+      },
+      {
+        "Player": "billy",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 31.10473020098876
+      },
+      {
+        "Player": "billy",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 13.311404028130697
+      },
+      {
+        "Player": "billy",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 2.009790574217184
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.18006949541661588
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 2.2180780410631034
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 10.68808450423524
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 25.972294964095678
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 33.60788524042124
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 21.844199432114305
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 5.489388322653819
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 1.5153508077870457
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 9.618111858091224
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 24.547110201638176
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 32.13990545679408
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 22.731641722070677
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 8.245895241745224
+      },
+      {
+        "Player": "stup",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 1.2019847118735452
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.37622142226355415
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 4.295954069083478
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 16.958436364929312
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 31.68416760417692
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 30.187616973105314
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 14.001418902542676
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 2.496184663898754
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.5165756590569119
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 5.368375529828928
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 20.05299538060168
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 33.96919379816576
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 27.805756137749682
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 10.727593204110528
+      },
+      {
+        "Player": "christian",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 1.559510290486512
+      }
+    ]
+  },
+  "forecastWeek": "week_5",
+  "playerReflections": [
+    {
+      "Week": "week_4",
+      "Player": "alexander",
+      "Picks": 6,
+      "LikelyPoints": 3,
+      "LikelyProbability": 31.389279358725307,
+      "ExpectedPoints": 3.26,
+      "ActualPoints": 5,
+      "ActualProbability": 12.578728161087996,
+      "Result": "Above forecast"
+    },
+    {
+      "Week": "week_4",
+      "Player": "billy",
+      "Picks": 6,
+      "LikelyPoints": 3,
+      "LikelyProbability": 32.62739143039432,
+      "ExpectedPoints": 3.38,
+      "ActualPoints": 4,
+      "ActualProbability": 31.10473020098876,
+      "Result": "Above forecast"
+    },
+    {
+      "Week": "week_4",
+      "Player": "ryan",
+      "Picks": 6,
+      "LikelyPoints": 4,
+      "LikelyProbability": 33.60788524042124,
+      "ExpectedPoints": 3.78,
+      "ActualPoints": 3,
+      "ActualProbability": 25.972294964095678,
+      "Result": "Below forecast"
+    },
+    {
+      "Week": "week_4",
+      "Player": "stup",
+      "Picks": 6,
+      "LikelyPoints": 3,
+      "LikelyProbability": 32.13990545679408,
+      "ExpectedPoints": 2.94,
+      "ActualPoints": 2,
+      "ActualProbability": 24.547110201638176,
+      "Result": "Below forecast"
+    },
+    {
+      "Week": "week_4",
+      "Player": "trace",
+      "Picks": 6,
+      "LikelyPoints": 3,
+      "LikelyProbability": 31.68416760417692,
+      "ExpectedPoints": 3.39,
+      "ActualPoints": 2,
+      "ActualProbability": 16.958436364929312,
+      "Result": "Below forecast"
+    },
+    {
+      "Week": "week_4",
+      "Player": "christian",
+      "Picks": 6,
+      "LikelyPoints": 3,
+      "LikelyProbability": 33.96919379816576,
+      "ExpectedPoints": 3.22,
+      "ActualPoints": 4,
+      "ActualProbability": 27.805756137749682,
+      "Result": "Above forecast"
     }
   ]
 }
