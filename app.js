@@ -225,17 +225,37 @@ function render(data) {
   document.getElementById("weekly-odds-note").textContent = data.weeklyOdds?.length
     ? `${data.forecastWeek ? `Week ${data.forecastWeek.replace("week_", "")}: ` : ""}${data.weeklyOdds.length} matchups from the workbook's Weekly Odds sheet.`
     : "No upcoming team odds were found in the workbook.";
-  renderTable(document.getElementById("odds-performance-table"), [
-    { key: "GameTime", label: "Game time" },
-    { key: "Team", label: "Team" },
-    { key: "Opponent", label: "Opponent" },
-    { key: "WinProbability", label: "Win chance", format: value => `${Number(value).toFixed(1)}%` },
-    { key: "Actual", label: "Actual" },
-    { key: "Assessment", label: "Vs odds" }
-  ], data.oddsPerformance || []);
-  document.getElementById("odds-performance-note").textContent = data.oddsPerformance?.length
-    ? "Completed games are compared with saved pregame win probabilities."
-    : "No completed games with saved odds and game dates yet. Run the updated scraper, then generate and publish the dashboard before kickoff to preserve forecasts for comparison.";
+  const performanceRows = data.oddsPerformance || [];
+  const weekNumber = week => Number(String(week).replace("week_", ""));
+  const performanceWeeks = [...new Set(performanceRows.map(row => row.Week).filter(Boolean))]
+    .sort((a, b) => weekNumber(a) - weekNumber(b));
+  const performanceFilter = document.getElementById("performance-week-filter");
+  const previousPerformanceWeek = performanceFilter.value;
+  performanceFilter.innerHTML = performanceWeeks.map(week =>
+    `<option value="${week}">${week.replace("week_", "Week ")}</option>`
+  ).join("");
+  const priorWeek = [...performanceWeeks].reverse().find(week =>
+    !data.forecastWeek || weekNumber(week) < weekNumber(data.forecastWeek)
+  ) || performanceWeeks[performanceWeeks.length - 1];
+  performanceFilter.value = performanceWeeks.includes(previousPerformanceWeek)
+    ? previousPerformanceWeek
+    : priorWeek || "";
+  const renderPerformance = () => {
+    const rows = performanceRows.filter(row => row.Week === performanceFilter.value);
+    renderTable(document.getElementById("odds-performance-table"), [
+      { key: "GameTime", label: "Game time" },
+      { key: "Team", label: "Team" },
+      { key: "Opponent", label: "Opponent" },
+      { key: "WinProbability", label: "Win chance", format: value => `${Number(value).toFixed(1)}%` },
+      { key: "Actual", label: "Actual" },
+      { key: "Assessment", label: "Vs odds" }
+    ], rows);
+    document.getElementById("odds-performance-note").textContent = performanceRows.length
+      ? "Completed games are compared with saved pregame win probabilities."
+      : "No completed games with saved odds and game dates yet. Run the updated scraper, then generate and publish the dashboard before kickoff to preserve forecasts for comparison.";
+  };
+  performanceFilter.onchange = renderPerformance;
+  renderPerformance();
 }
 
 fetch(`data/dashboard.json?updated=${Date.now()}`).then(response => response.json()).then(render).catch(error => {

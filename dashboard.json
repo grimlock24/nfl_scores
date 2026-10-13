@@ -1,6 +1,6 @@
 {
   "title": "NFL Draft League 2026",
-  "updated": "October 13, 2026 at 10:51 AM",
+  "updated": "October 13, 2026 at 11:02 AM",
   "currentWeek": "week_5",
   "playerOfWeek": {
     "week": "week_5",
@@ -1976,7 +1976,8 @@
       "WinProbability": 60.1,
       "LoseProbability": 39.9,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 1, 8:15 PM ET",
@@ -1985,7 +1986,8 @@
       "WinProbability": 39.9,
       "LoseProbability": 60.1,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 9:30 AM ET",
@@ -1994,7 +1996,8 @@
       "WinProbability": 63.0,
       "LoseProbability": 37.0,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 9:30 AM ET",
@@ -2003,7 +2006,8 @@
       "WinProbability": 37.0,
       "LoseProbability": 63.0,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2012,7 +2016,8 @@
       "WinProbability": 51.4,
       "LoseProbability": 48.6,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2021,7 +2026,8 @@
       "WinProbability": 48.6,
       "LoseProbability": 51.4,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2030,7 +2036,8 @@
       "WinProbability": 29.3,
       "LoseProbability": 70.7,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2039,7 +2046,8 @@
       "WinProbability": 70.7,
       "LoseProbability": 29.3,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2048,7 +2056,8 @@
       "WinProbability": 38.7,
       "LoseProbability": 61.3,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2057,7 +2066,8 @@
       "WinProbability": 61.3,
       "LoseProbability": 38.7,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2066,7 +2076,8 @@
       "WinProbability": 43.1,
       "LoseProbability": 56.9,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2075,7 +2086,8 @@
       "WinProbability": 56.9,
       "LoseProbability": 43.1,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2084,7 +2096,8 @@
       "WinProbability": 59.9,
       "LoseProbability": 40.1,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2093,7 +2106,8 @@
       "WinProbability": 40.1,
       "LoseProbability": 59.9,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2102,7 +2116,8 @@
       "WinProbability": 64.8,
       "LoseProbability": 35.2,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2111,7 +2126,8 @@
       "WinProbability": 35.2,
       "LoseProbability": 64.8,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2120,7 +2136,8 @@
       "WinProbability": 14.9,
       "LoseProbability": 85.1,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2129,7 +2146,8 @@
       "WinProbability": 85.1,
       "LoseProbability": 14.9,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2138,7 +2156,8 @@
       "WinProbability": 40.3,
       "LoseProbability": 59.7,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 1:00 PM ET",
@@ -2147,7 +2166,8 @@
       "WinProbability": 59.7,
       "LoseProbability": 40.3,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 4:05 PM ET",
@@ -2156,7 +2176,8 @@
       "WinProbability": 18.8,
       "LoseProbability": 81.2,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 4:05 PM ET",
@@ -2165,7 +2186,8 @@
       "WinProbability": 81.2,
       "LoseProbability": 18.8,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 4:25 PM ET",
@@ -2174,7 +2196,8 @@
       "WinProbability": 67.7,
       "LoseProbability": 32.3,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 4:25 PM ET",
@@ -2183,7 +2206,8 @@
       "WinProbability": 32.3,
       "LoseProbability": 67.7,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 4:25 PM ET",
@@ -2192,7 +2216,8 @@
       "WinProbability": 25.5,
       "LoseProbability": 74.5,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 4:25 PM ET",
@@ -2201,7 +2226,8 @@
       "WinProbability": 74.5,
       "LoseProbability": 25.5,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 4:25 PM ET",
@@ -2210,7 +2236,8 @@
       "WinProbability": 36.6,
       "LoseProbability": 63.4,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 4:25 PM ET",
@@ -2219,7 +2246,8 @@
       "WinProbability": 63.4,
       "LoseProbability": 36.6,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 8:20 PM ET",
@@ -2228,7 +2256,8 @@
       "WinProbability": 62.1,
       "LoseProbability": 37.9,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 4, 8:20 PM ET",
@@ -2237,7 +2266,8 @@
       "WinProbability": 37.9,
       "LoseProbability": 62.1,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 5, 8:15 PM ET",
@@ -2246,7 +2276,8 @@
       "WinProbability": 40.2,
       "LoseProbability": 59.8,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 5, 8:15 PM ET",
@@ -2255,7 +2286,8 @@
       "WinProbability": 59.8,
       "LoseProbability": 40.2,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_4"
     },
     {
       "GameTime": "Oct 8, 8:15 PM ET",
@@ -2264,7 +2296,8 @@
       "WinProbability": 20.1,
       "LoseProbability": 79.9,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 8, 8:15 PM ET",
@@ -2273,7 +2306,8 @@
       "WinProbability": 79.9,
       "LoseProbability": 20.1,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 9:30 AM ET",
@@ -2282,7 +2316,8 @@
       "WinProbability": 26.9,
       "LoseProbability": 73.1,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 9:30 AM ET",
@@ -2291,7 +2326,8 @@
       "WinProbability": 73.1,
       "LoseProbability": 26.9,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2300,7 +2336,8 @@
       "WinProbability": 40.5,
       "LoseProbability": 59.5,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2309,7 +2346,8 @@
       "WinProbability": 59.5,
       "LoseProbability": 40.5,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2318,7 +2356,8 @@
       "WinProbability": 75.3,
       "LoseProbability": 24.7,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2327,7 +2366,8 @@
       "WinProbability": 24.7,
       "LoseProbability": 75.3,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2336,7 +2376,8 @@
       "WinProbability": 34.2,
       "LoseProbability": 65.8,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2345,7 +2386,8 @@
       "WinProbability": 65.8,
       "LoseProbability": 34.2,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2354,7 +2396,8 @@
       "WinProbability": 56.1,
       "LoseProbability": 43.9,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2363,7 +2406,8 @@
       "WinProbability": 43.9,
       "LoseProbability": 56.1,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2372,7 +2416,8 @@
       "WinProbability": 72.0,
       "LoseProbability": 28.0,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2381,7 +2426,8 @@
       "WinProbability": 28.0,
       "LoseProbability": 72.0,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2390,7 +2436,8 @@
       "WinProbability": 37.2,
       "LoseProbability": 62.8,
       "Actual": "Tie",
-      "Assessment": "Tie"
+      "Assessment": "Tie",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2399,7 +2446,8 @@
       "WinProbability": 62.8,
       "LoseProbability": 37.2,
       "Actual": "Tie",
-      "Assessment": "Tie"
+      "Assessment": "Tie",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2408,7 +2456,8 @@
       "WinProbability": 42.8,
       "LoseProbability": 57.2,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2417,7 +2466,8 @@
       "WinProbability": 57.2,
       "LoseProbability": 42.8,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 4:05 PM ET",
@@ -2426,7 +2476,8 @@
       "WinProbability": 63.1,
       "LoseProbability": 36.9,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 4:05 PM ET",
@@ -2435,7 +2486,8 @@
       "WinProbability": 36.9,
       "LoseProbability": 63.1,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2444,7 +2496,8 @@
       "WinProbability": 56.2,
       "LoseProbability": 43.8,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 1:00 PM ET",
@@ -2453,7 +2506,8 @@
       "WinProbability": 43.8,
       "LoseProbability": 56.2,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 4:25 PM ET",
@@ -2462,7 +2516,8 @@
       "WinProbability": 66.5,
       "LoseProbability": 33.5,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 4:25 PM ET",
@@ -2471,7 +2526,8 @@
       "WinProbability": 33.5,
       "LoseProbability": 66.5,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 4:25 PM ET",
@@ -2480,7 +2536,8 @@
       "WinProbability": 41.4,
       "LoseProbability": 58.6,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 4:25 PM ET",
@@ -2489,7 +2546,8 @@
       "WinProbability": 58.6,
       "LoseProbability": 41.4,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 8:20 PM ET",
@@ -2498,7 +2556,8 @@
       "WinProbability": 59.5,
       "LoseProbability": 40.5,
       "Actual": "Win",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 11, 8:20 PM ET",
@@ -2507,7 +2566,8 @@
       "WinProbability": 40.5,
       "LoseProbability": 59.5,
       "Actual": "Loss",
-      "Assessment": "As expected"
+      "Assessment": "As expected",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 12, 8:15 PM ET",
@@ -2516,7 +2576,8 @@
       "WinProbability": 39.4,
       "LoseProbability": 60.6,
       "Actual": "Win",
-      "Assessment": "Beat the odds"
+      "Assessment": "Beat the odds",
+      "Week": "week_5"
     },
     {
       "GameTime": "Oct 12, 8:15 PM ET",
@@ -2525,7 +2586,8 @@
       "WinProbability": 60.6,
       "LoseProbability": 39.4,
       "Actual": "Loss",
-      "Assessment": "Fell short"
+      "Assessment": "Fell short",
+      "Week": "week_5"
     }
   ],
   "binomialOdds": [
