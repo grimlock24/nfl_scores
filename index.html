@@ -106,6 +106,10 @@
     </section>
   </main>
   <footer>Updated from the NFL 2026 workbook · <a href="https://github.com/grimlock24/nfl_scores">View project</a></footer>
-  <script src="app.js"></script>
+  <script>
+    const appScript = document.createElement("script");
+    appScript.src = `app.js?v=${Date.now()}`;
+    document.body.appendChild(appScript);
+  </script>
 </body>
 </html>
