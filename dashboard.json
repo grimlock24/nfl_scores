@@ -1,47 +1,37 @@
 {
   "title": "NFL Draft League 2026",
-  "updated": "October 20, 2026 at 10:52 AM",
-  "currentWeek": "week_6",
+  "updated": "October 26, 2026 at 11:54 PM",
+  "currentWeek": "week_7",
   "playerOfWeek": {
-    "week": "week_6",
+    "week": "week_7",
     "players": [
+      "alexander",
       "trace"
     ],
-    "points": 4
+    "points": 5
   },
   "standings": [
     {
-      "Team": "San Francisco 49ers",
-      "Division": "NFC West",
+      "Team": "Minnesota Vikings",
+      "Division": "NFC North",
       "W": 6,
       "L": 0,
       "T": 0,
       "PCT": 1.0,
-      "PF": 177,
-      "PA": 110,
+      "PF": 125,
+      "PA": 74,
       "STRK": "6W"
     },
     {
-      "Team": "Kansas City Chiefs",
-      "Division": "AFC West",
-      "W": 5,
-      "L": 0,
+      "Team": "San Francisco 49ers",
+      "Division": "NFC West",
+      "W": 6,
+      "L": 1,
       "T": 0,
-      "PCT": 1.0,
-      "PF": 140,
-      "PA": 83,
-      "STRK": "5W"
-    },
-    {
-      "Team": "Minnesota Vikings",
-      "Division": "NFC North",
-      "W": 5,
-      "L": 0,
-      "T": 0,
-      "PCT": 1.0,
-      "PF": 109,
-      "PA": 64,
-      "STRK": "5W"
+      "PCT": 0.8571428571428571,
+      "PF": 197,
+      "PA": 139,
+      "STRK": "1L"
     },
     {
       "Team": "Buffalo Bills",
@@ -55,15 +45,81 @@
       "STRK": "2W"
     },
     {
-      "Team": "Baltimore Ravens",
+      "Team": "Kansas City Chiefs",
+      "Division": "AFC West",
+      "W": 5,
+      "L": 1,
+      "T": 0,
+      "PCT": 0.8333333333333334,
+      "PF": 143,
+      "PA": 103,
+      "STRK": "1L"
+    },
+    {
+      "Team": "Chicago Bears",
+      "Division": "NFC North",
+      "W": 5,
+      "L": 2,
+      "T": 0,
+      "PCT": 0.7142857142857143,
+      "PF": 180,
+      "PA": 143,
+      "STRK": "2W"
+    },
+    {
+      "Team": "Pittsburgh Steelers",
+      "Division": "AFC North",
+      "W": 5,
+      "L": 2,
+      "T": 0,
+      "PCT": 0.7142857142857143,
+      "PF": 153,
+      "PA": 138,
+      "STRK": "3W"
+    },
+    {
+      "Team": "Denver Broncos",
+      "Division": "AFC West",
+      "W": 5,
+      "L": 2,
+      "T": 0,
+      "PCT": 0.7142857142857143,
+      "PF": 144,
+      "PA": 141,
+      "STRK": "3W"
+    },
+    {
+      "Team": "Cleveland Browns",
+      "Division": "AFC North",
+      "W": 5,
+      "L": 2,
+      "T": 0,
+      "PCT": 0.7142857142857143,
+      "PF": 133,
+      "PA": 146,
+      "STRK": "2W"
+    },
+    {
+      "Team": "Detroit Lions",
+      "Division": "NFC North",
+      "W": 4,
+      "L": 2,
+      "T": 0,
+      "PCT": 0.6666666666666666,
+      "PF": 184,
+      "PA": 165,
+      "STRK": "2W"
+    },
+    {
+      "Team": "Cincinnati Bengals",
       "Division": "AFC North",
       "W": 4,
       "L": 2,
       "T": 0,
       "PCT": 0.6666666666666666,
-      "PF": 156,
-      "PA": 132,
-      "STRK": "1L"
+      "PF": 163,
+      "PA": 122,
+      "STRK": "2W"
     },
     {
       "Team": "Jacksonville Jaguars",
@@ -77,235 +133,191 @@
       "STRK": "1L"
     },
     {
-      "Team": "Chicago Bears",
-      "Division": "NFC North",
+      "Team": "New York Giants",
+      "Division": "NFC East",
       "W": 4,
       "L": 2,
-      "T": 0,
-      "PCT": 0.6666666666666666,
-      "PF": 150,
-      "PA": 119,
+      "T": 1,
+      "PCT": 0.6428571428571429,
+      "PF": 163,
+      "PA": 161,
       "STRK": "1W"
     },
     {
-      "Team": "Pittsburgh Steelers",
+      "Team": "Baltimore Ravens",
       "Division": "AFC North",
       "W": 4,
-      "L": 2,
+      "L": 3,
       "T": 0,
-      "PCT": 0.6666666666666666,
-      "PF": 137,
-      "PA": 128,
-      "STRK": "2W"
+      "PCT": 0.5714285714285714,
+      "PF": 169,
+      "PA": 167,
+      "STRK": "2L"
+    },
+    {
+      "Team": "Seattle Seahawks",
+      "Division": "NFC West",
+      "W": 4,
+      "L": 3,
+      "T": 0,
+      "PCT": 0.5714285714285714,
+      "PF": 168,
+      "PA": 125,
+      "STRK": "1W"
     },
     {
       "Team": "New England Patriots",
       "Division": "AFC East",
       "W": 4,
-      "L": 2,
+      "L": 3,
       "T": 0,
-      "PCT": 0.6666666666666666,
-      "PF": 136,
-      "PA": 113,
-      "STRK": "3W"
+      "PCT": 0.5714285714285714,
+      "PF": 160,
+      "PA": 143,
+      "STRK": "1L"
     },
     {
       "Team": "Green Bay Packers",
       "Division": "NFC North",
       "W": 4,
-      "L": 2,
+      "L": 3,
       "T": 0,
-      "PCT": 0.6666666666666666,
-      "PF": 127,
-      "PA": 125,
-      "STRK": "3W"
-    },
-    {
-      "Team": "Denver Broncos",
-      "Division": "AFC West",
-      "W": 4,
-      "L": 2,
-      "T": 0,
-      "PCT": 0.6666666666666666,
-      "PF": 114,
-      "PA": 125,
-      "STRK": "2W"
-    },
-    {
-      "Team": "Cleveland Browns",
-      "Division": "AFC North",
-      "W": 4,
-      "L": 2,
-      "T": 0,
-      "PCT": 0.6666666666666666,
-      "PF": 106,
-      "PA": 122,
-      "STRK": "1W"
-    },
-    {
-      "Team": "Detroit Lions",
-      "Division": "NFC North",
-      "W": 3,
-      "L": 2,
-      "T": 0,
-      "PCT": 0.6,
-      "PF": 164,
-      "PA": 148,
-      "STRK": "1W"
+      "PCT": 0.5714285714285714,
+      "PF": 144,
+      "PA": 145,
+      "STRK": "1L"
     },
     {
       "Team": "Carolina Panthers",
       "Division": "NFC South",
       "W": 3,
-      "L": 2,
+      "L": 3,
       "T": 0,
-      "PCT": 0.6,
-      "PF": 146,
-      "PA": 123,
-      "STRK": "2W"
+      "PCT": 0.5,
+      "PF": 159,
+      "PA": 166,
+      "STRK": "1L"
     },
     {
-      "Team": "Cincinnati Bengals",
-      "Division": "AFC North",
-      "W": 3,
-      "L": 2,
-      "T": 0,
-      "PCT": 0.6,
-      "PF": 128,
-      "PA": 109,
-      "STRK": "1W"
-    },
-    {
-      "Team": "New York Giants",
+      "Team": "Dallas Cowboys",
       "Division": "NFC East",
       "W": 3,
-      "L": 2,
-      "T": 1,
-      "PCT": 0.5833333333333334,
-      "PF": 136,
-      "PA": 140,
-      "STRK": "1L"
+      "L": 4,
+      "T": 0,
+      "PCT": 0.4285714285714285,
+      "PF": 189,
+      "PA": 180,
+      "STRK": "1W"
     },
     {
       "Team": "Las Vegas Raiders",
       "Division": "AFC West",
       "W": 3,
-      "L": 3,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 162,
-      "PA": 162,
-      "STRK": "3L"
-    },
-    {
-      "Team": "Seattle Seahawks",
-      "Division": "NFC West",
-      "W": 3,
-      "L": 3,
-      "T": 0,
-      "PCT": 0.5,
-      "PF": 148,
-      "PA": 122,
-      "STRK": "2L"
-    },
-    {
-      "Team": "New Orleans Saints",
-      "Division": "NFC South",
-      "W": 2,
       "L": 4,
       "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 152,
-      "PA": 178,
+      "PCT": 0.4285714285714285,
+      "PF": 183,
+      "PA": 197,
+      "STRK": "4L"
+    },
+    {
+      "Team": "Atlanta Falcons",
+      "Division": "NFC South",
+      "W": 3,
+      "L": 4,
+      "T": 0,
+      "PCT": 0.4285714285714285,
+      "PF": 171,
+      "PA": 173,
       "STRK": "1W"
     },
     {
-      "Team": "Dallas Cowboys",
-      "Division": "NFC East",
-      "W": 2,
+      "Team": "Los Angeles Rams",
+      "Division": "NFC West",
+      "W": 3,
       "L": 4,
       "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 151,
+      "PCT": 0.4285714285714285,
+      "PF": 170,
       "PA": 159,
-      "STRK": "2L"
+      "STRK": "1W"
     },
     {
       "Team": "Houston Texans",
       "Division": "AFC South",
       "W": 2,
-      "L": 4,
+      "L": 5,
       "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 144,
-      "PA": 143,
-      "STRK": "2W"
+      "PCT": 0.2857142857142857,
+      "PF": 165,
+      "PA": 170,
+      "STRK": "1L"
+    },
+    {
+      "Team": "Tampa Bay Buccaneers",
+      "Division": "NFC South",
+      "W": 2,
+      "L": 5,
+      "T": 0,
+      "PCT": 0.2857142857142857,
+      "PF": 162,
+      "PA": 151,
+      "STRK": "1W"
+    },
+    {
+      "Team": "New Orleans Saints",
+      "Division": "NFC South",
+      "W": 2,
+      "L": 5,
+      "T": 0,
+      "PCT": 0.2857142857142857,
+      "PF": 162,
+      "PA": 194,
+      "STRK": "1L"
     },
     {
       "Team": "Indianapolis Colts",
       "Division": "AFC South",
       "W": 2,
-      "L": 4,
+      "L": 5,
       "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 144,
-      "PA": 164,
-      "STRK": "2L"
-    },
-    {
-      "Team": "Atlanta Falcons",
-      "Division": "NFC South",
-      "W": 2,
-      "L": 4,
-      "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 142,
-      "PA": 153,
-      "STRK": "2L"
-    },
-    {
-      "Team": "Los Angeles Rams",
-      "Division": "NFC West",
-      "W": 2,
-      "L": 4,
-      "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 135,
-      "PA": 138,
-      "STRK": "2L"
+      "PCT": 0.2857142857142857,
+      "PF": 154,
+      "PA": 180,
+      "STRK": "3L"
     },
     {
       "Team": "Arizona Cardinals",
       "Division": "NFC West",
       "W": 2,
-      "L": 4,
+      "L": 5,
       "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 126,
-      "PA": 178,
-      "STRK": "1W"
+      "PCT": 0.2857142857142857,
+      "PF": 142,
+      "PA": 208,
+      "STRK": "1L"
     },
     {
       "Team": "New York Jets",
       "Division": "AFC East",
       "W": 2,
-      "L": 4,
+      "L": 5,
       "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 112,
-      "PA": 122,
-      "STRK": "1L"
+      "PCT": 0.2857142857142857,
+      "PF": 137,
+      "PA": 150,
+      "STRK": "2L"
     },
     {
       "Team": "Philadelphia Eagles",
       "Division": "NFC East",
       "W": 2,
-      "L": 4,
+      "L": 5,
       "T": 0,
-      "PCT": 0.3333333333333333,
-      "PF": 106,
-      "PA": 137,
-      "STRK": "4L"
+      "PCT": 0.2857142857142857,
+      "PF": 127,
+      "PA": 175,
+      "STRK": "5L"
     },
     {
       "Team": "Washington Commanders",
@@ -319,26 +331,26 @@
       "STRK": "1L"
     },
     {
-      "Team": "Tampa Bay Buccaneers",
-      "Division": "NFC South",
+      "Team": "Miami Dolphins",
+      "Division": "AFC East",
       "W": 1,
       "L": 5,
       "T": 0,
       "PCT": 0.1666666666666667,
-      "PF": 119,
-      "PA": 138,
-      "STRK": "1L"
+      "PF": 98,
+      "PA": 157,
+      "STRK": "1W"
     },
     {
       "Team": "Tennessee Titans",
       "Division": "AFC South",
       "W": 1,
-      "L": 5,
+      "L": 6,
       "T": 0,
-      "PCT": 0.1666666666666667,
-      "PF": 84,
-      "PA": 129,
-      "STRK": "1W"
+      "PCT": 0.1428571428571428,
+      "PF": 108,
+      "PA": 156,
+      "STRK": "1L"
     },
     {
       "Team": "Los Angeles Chargers",
@@ -350,17 +362,6 @@
       "PF": 90,
       "PA": 151,
       "STRK": "6L"
-    },
-    {
-      "Team": "Miami Dolphins",
-      "Division": "AFC East",
-      "W": 0,
-      "L": 5,
-      "T": 0,
-      "PCT": 0.0,
-      "PF": 70,
-      "PA": 132,
-      "STRK": "5L"
     }
   ],
   "draft": [
@@ -632,7 +633,7 @@
       "Pick": 7,
       "Team": "Seattle Seahawks",
       "Selection": "Wins",
-      "Points": 3
+      "Points": 4
     },
     {
       "Player": "christian",
@@ -648,7 +649,7 @@
       "Pick": 19,
       "Team": "New Orleans Saints",
       "Selection": "Losses",
-      "Points": 4
+      "Points": 5
     },
     {
       "Player": "christian",
@@ -656,7 +657,7 @@
       "Pick": 30,
       "Team": "Minnesota Vikings",
       "Selection": "Wins",
-      "Points": 5
+      "Points": 6
     },
     {
       "Player": "christian",
@@ -664,7 +665,7 @@
       "Pick": 31,
       "Team": "Denver Broncos",
       "Selection": "Wins",
-      "Points": 4
+      "Points": 5
     },
     {
       "Player": "trace",
@@ -672,7 +673,7 @@
       "Pick": 5,
       "Team": "Tennessee Titans",
       "Selection": "Losses",
-      "Points": 5
+      "Points": 6
     },
     {
       "Player": "trace",
@@ -680,7 +681,7 @@
       "Pick": 8,
       "Team": "New York Jets",
       "Selection": "Losses",
-      "Points": 4
+      "Points": 5
     },
     {
       "Player": "trace",
@@ -688,7 +689,7 @@
       "Pick": 17,
       "Team": "Carolina Panthers",
       "Selection": "Losses",
-      "Points": 2
+      "Points": 3
     },
     {
       "Player": "trace",
@@ -696,7 +697,7 @@
       "Pick": 20,
       "Team": "Indianapolis Colts",
       "Selection": "Losses",
-      "Points": 4
+      "Points": 5
     },
     {
       "Player": "trace",
@@ -712,7 +713,55 @@
       "Pick": 32,
       "Team": "Denver Broncos",
       "Selection": "Wins",
+      "Points": 5
+    },
+    {
+      "Player": "alexander",
+      "Round": 1,
+      "Pick": 1,
+      "Team": "Arizona Cardinals",
+      "Selection": "Losses",
+      "Points": 5
+    },
+    {
+      "Player": "alexander",
+      "Round": 2,
+      "Pick": 12,
+      "Team": "Las Vegas Raiders",
+      "Selection": "Losses",
       "Points": 4
+    },
+    {
+      "Player": "alexander",
+      "Round": 3,
+      "Pick": 13,
+      "Team": "Los Angeles Rams",
+      "Selection": "Wins",
+      "Points": 3
+    },
+    {
+      "Player": "alexander",
+      "Round": 4,
+      "Pick": 24,
+      "Team": "Green Bay Packers",
+      "Selection": "Wins",
+      "Points": 4
+    },
+    {
+      "Player": "alexander",
+      "Round": 5,
+      "Pick": 25,
+      "Team": "New York Giants",
+      "Selection": "Wins",
+      "Points": 4
+    },
+    {
+      "Player": "alexander",
+      "Round": 6,
+      "Pick": 36,
+      "Team": "Denver Broncos",
+      "Selection": "Wins",
+      "Points": 5
     },
     {
       "Player": "ryan",
@@ -744,7 +793,7 @@
       "Pick": 22,
       "Team": "Cincinnati Bengals",
       "Selection": "Wins",
-      "Points": 3
+      "Points": 4
     },
     {
       "Player": "ryan",
@@ -792,7 +841,7 @@
       "Pick": 23,
       "Team": "Chicago Bears",
       "Selection": "Wins",
-      "Points": 4
+      "Points": 5
     },
     {
       "Player": "billy",
@@ -808,55 +857,7 @@
       "Pick": 35,
       "Team": "Tampa Bay Buccaneers",
       "Selection": "Wins",
-      "Points": 1
-    },
-    {
-      "Player": "alexander",
-      "Round": 1,
-      "Pick": 1,
-      "Team": "Arizona Cardinals",
-      "Selection": "Losses",
-      "Points": 4
-    },
-    {
-      "Player": "alexander",
-      "Round": 2,
-      "Pick": 12,
-      "Team": "Las Vegas Raiders",
-      "Selection": "Losses",
-      "Points": 3
-    },
-    {
-      "Player": "alexander",
-      "Round": 3,
-      "Pick": 13,
-      "Team": "Los Angeles Rams",
-      "Selection": "Wins",
       "Points": 2
-    },
-    {
-      "Player": "alexander",
-      "Round": 4,
-      "Pick": 24,
-      "Team": "Green Bay Packers",
-      "Selection": "Wins",
-      "Points": 4
-    },
-    {
-      "Player": "alexander",
-      "Round": 5,
-      "Pick": 25,
-      "Team": "New York Giants",
-      "Selection": "Wins",
-      "Points": 3
-    },
-    {
-      "Player": "alexander",
-      "Round": 6,
-      "Pick": 36,
-      "Team": "Denver Broncos",
-      "Selection": "Wins",
-      "Points": 4
     },
     {
       "Player": "stup",
@@ -872,7 +873,7 @@
       "Pick": 9,
       "Team": "Detroit Lions",
       "Selection": "Wins",
-      "Points": 3
+      "Points": 4
     },
     {
       "Player": "stup",
@@ -904,80 +905,80 @@
       "Pick": 33,
       "Team": "Tampa Bay Buccaneers",
       "Selection": "Wins",
-      "Points": 1
+      "Points": 2
     }
   ],
   "playerScores": [
     {
       "Player": "christian",
-      "Points": 24,
-      "Correct": 24,
-      "Graded": 35,
-      "Accuracy": 0.6857142857142857,
+      "Points": 28,
+      "Correct": 28,
+      "Graded": 41,
+      "Accuracy": 0.6829268292682927,
       "PointsBack": 0,
       "StartingMax": 96,
-      "MaxPossible": 88,
-      "PointsRemaining": 64,
+      "MaxPossible": 86,
+      "PointsRemaining": 58,
       "Status": "In contention"
     },
     {
       "Player": "trace",
-      "Points": 23,
-      "Correct": 23,
-      "Graded": 35,
-      "Accuracy": 0.6571428571428571,
-      "PointsBack": 1,
+      "Points": 28,
+      "Correct": 28,
+      "Graded": 41,
+      "Accuracy": 0.6829268292682927,
+      "PointsBack": 0,
       "StartingMax": 97,
-      "MaxPossible": 87,
-      "PointsRemaining": 64,
-      "Status": "In contention"
-    },
-    {
-      "Player": "ryan",
-      "Points": 21,
-      "Correct": 21,
-      "Graded": 34,
-      "Accuracy": 0.6176470588235294,
-      "PointsBack": 3,
-      "StartingMax": 101,
-      "MaxPossible": 88,
-      "PointsRemaining": 67,
-      "Status": "In contention"
-    },
-    {
-      "Player": "billy",
-      "Points": 20,
-      "Correct": 20,
-      "Graded": 35,
-      "Accuracy": 0.5714285714285714,
-      "PointsBack": 4,
-      "StartingMax": 94,
-      "MaxPossible": 80,
-      "PointsRemaining": 60,
+      "MaxPossible": 86,
+      "PointsRemaining": 58,
       "Status": "In contention"
     },
     {
       "Player": "alexander",
-      "Points": 20,
-      "Correct": 20,
-      "Graded": 36,
-      "Accuracy": 0.5555555555555556,
-      "PointsBack": 4,
+      "Points": 25,
+      "Correct": 25,
+      "Graded": 42,
+      "Accuracy": 0.5952380952380952,
+      "PointsBack": 3,
       "StartingMax": 98,
-      "MaxPossible": 84,
-      "PointsRemaining": 64,
+      "MaxPossible": 83,
+      "PointsRemaining": 58,
+      "Status": "In contention"
+    },
+    {
+      "Player": "ryan",
+      "Points": 22,
+      "Correct": 22,
+      "Graded": 38,
+      "Accuracy": 0.5789473684210527,
+      "PointsBack": 6,
+      "StartingMax": 101,
+      "MaxPossible": 85,
+      "PointsRemaining": 63,
+      "Status": "In contention"
+    },
+    {
+      "Player": "billy",
+      "Points": 22,
+      "Correct": 22,
+      "Graded": 40,
+      "Accuracy": 0.55,
+      "PointsBack": 6,
+      "StartingMax": 94,
+      "MaxPossible": 77,
+      "PointsRemaining": 55,
       "Status": "In contention"
     },
     {
       "Player": "stup",
-      "Points": 14,
-      "Correct": 14,
-      "Graded": 35,
+      "Points": 16,
+      "Correct": 16,
+      "Graded": 40,
       "Accuracy": 0.4,
-      "PointsBack": 10,
+      "PointsBack": 12,
       "StartingMax": 97,
-      "MaxPossible": 78,
-      "PointsRemaining": 64,
+      "MaxPossible": 75,
+      "PointsRemaining": 59,
       "Status": "In contention"
     }
   ],
@@ -1031,6 +1032,14 @@
       "stup": 1,
       "trace": 4,
       "christian": 3
+    },
+    "week_7": {
+      "alexander": 5,
+      "billy": 2,
+      "ryan": 1,
+      "stup": 2,
+      "trace": 5,
+      "christian": 4
     }
   },
   "historical": [
@@ -1245,102 +1254,102 @@
   ],
   "weeklyOdds": [
     {
-      "GameTime": "Oct 22, 8:15 PM ET",
-      "Team": "New England Patriots",
-      "Opponent": "Chicago Bears",
-      "WinProbability": 38.1,
-      "OpponentProbability": 61.9
+      "GameTime": "Oct 29, 8:15 PM ET",
+      "Team": "Carolina Panthers",
+      "Opponent": "Green Bay Packers",
+      "WinProbability": 36.3,
+      "OpponentProbability": 63.7
     },
     {
-      "GameTime": "Oct 25, 9:30 AM ET",
-      "Team": "Pittsburgh Steelers",
-      "Opponent": "New Orleans Saints",
-      "WinProbability": 61.5,
-      "OpponentProbability": 38.5
-    },
-    {
-      "GameTime": "Oct 25, 1:00 PM ET",
+      "GameTime": "Nov 1, 1:00 PM ET",
       "Team": "Indianapolis Colts",
-      "Opponent": "Minnesota Vikings",
-      "WinProbability": 28.8,
-      "OpponentProbability": 71.2
+      "Opponent": "Jacksonville Jaguars",
+      "WinProbability": 24.9,
+      "OpponentProbability": 75.1
     },
     {
-      "GameTime": "Oct 25, 1:00 PM ET",
-      "Team": "Miami Dolphins",
-      "Opponent": "New York Jets",
-      "WinProbability": 33.7,
-      "OpponentProbability": 66.3
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Tennessee Titans",
+      "Opponent": "Cincinnati Bengals",
+      "WinProbability": 16.1,
+      "OpponentProbability": 83.9
     },
     {
-      "GameTime": "Oct 25, 1:00 PM ET",
-      "Team": "Cincinnati Bengals",
-      "Opponent": "Baltimore Ravens",
-      "WinProbability": 40.1,
-      "OpponentProbability": 59.9
-    },
-    {
-      "GameTime": "Oct 25, 1:00 PM ET",
+      "GameTime": "Nov 1, 1:00 PM ET",
       "Team": "Cleveland Browns",
-      "Opponent": "Tennessee Titans",
-      "WinProbability": 55.3,
-      "OpponentProbability": 44.7
+      "Opponent": "Pittsburgh Steelers",
+      "WinProbability": 35.4,
+      "OpponentProbability": 64.6
     },
     {
-      "GameTime": "Oct 25, 1:00 PM ET",
-      "Team": "Tampa Bay Buccaneers",
-      "Opponent": "Carolina Panthers",
-      "WinProbability": 34.2,
-      "OpponentProbability": 65.8
-    },
-    {
-      "GameTime": "Oct 25, 1:00 PM ET",
-      "Team": "San Francisco 49ers",
-      "Opponent": "Atlanta Falcons",
-      "WinProbability": 63.7,
-      "OpponentProbability": 36.3
-    },
-    {
-      "GameTime": "Oct 25, 1:00 PM ET",
-      "Team": "New York Giants",
-      "Opponent": "Houston Texans",
-      "WinProbability": 23.3,
-      "OpponentProbability": 76.7
-    },
-    {
-      "GameTime": "Oct 25, 4:05 PM ET",
-      "Team": "Denver Broncos",
-      "Opponent": "Arizona Cardinals",
-      "WinProbability": 64.8,
-      "OpponentProbability": 35.2
-    },
-    {
-      "GameTime": "Oct 25, 4:25 PM ET",
-      "Team": "Los Angeles Rams",
-      "Opponent": "Las Vegas Raiders",
-      "WinProbability": 68.2,
-      "OpponentProbability": 31.8
-    },
-    {
-      "GameTime": "Oct 25, 4:25 PM ET",
-      "Team": "Green Bay Packers",
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Minnesota Vikings",
       "Opponent": "Detroit Lions",
-      "WinProbability": 39.1,
-      "OpponentProbability": 60.9
+      "WinProbability": 39.5,
+      "OpponentProbability": 60.5
     },
     {
-      "GameTime": "Oct 25, 8:20 PM ET",
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Atlanta Falcons",
+      "Opponent": "Tampa Bay Buccaneers",
+      "WinProbability": 43.0,
+      "OpponentProbability": 57.0
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Arizona Cardinals",
+      "Opponent": "Dallas Cowboys",
+      "WinProbability": 28.3,
+      "OpponentProbability": 71.7
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "New York Jets",
+      "WinProbability": 42.4,
+      "OpponentProbability": 57.6
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Baltimore Ravens",
+      "Opponent": "Buffalo Bills",
+      "WinProbability": 38.6,
+      "OpponentProbability": 61.4
+    },
+    {
+      "GameTime": "Nov 1, 4:05 PM ET",
+      "Team": "Los Angeles Chargers",
+      "Opponent": "Los Angeles Rams",
+      "WinProbability": 25.7,
+      "OpponentProbability": 74.3
+    },
+    {
+      "GameTime": "Nov 1, 4:25 PM ET",
+      "Team": "New England Patriots",
+      "Opponent": "Miami Dolphins",
+      "WinProbability": 73.5,
+      "OpponentProbability": 26.5
+    },
+    {
+      "GameTime": "Nov 1, 4:25 PM ET",
       "Team": "Kansas City Chiefs",
-      "Opponent": "Seattle Seahawks",
-      "WinProbability": 41.6,
-      "OpponentProbability": 58.4
+      "Opponent": "Denver Broncos",
+      "WinProbability": 58.0,
+      "OpponentProbability": 42.0
     },
     {
-      "GameTime": "Oct 26, 8:15 PM ET",
-      "Team": "Dallas Cowboys",
-      "Opponent": "Philadelphia Eagles",
-      "WinProbability": 68.0,
-      "OpponentProbability": 32.0
+      "GameTime": "Nov 1, 8:20 PM ET",
+      "Team": "Philadelphia Eagles",
+      "Opponent": "Washington Commanders",
+      "WinProbability": 32.7,
+      "OpponentProbability": 67.3
+    },
+    {
+      "GameTime": "Nov 2, 8:15 PM ET",
+      "Team": "Chicago Bears",
+      "Opponent": "Seattle Seahawks",
+      "WinProbability": 40.0,
+      "OpponentProbability": 60.0
     }
   ],
   "oddsArchive": [
@@ -2169,6 +2178,202 @@
       "Opponent": "Dallas Cowboys",
       "WinProbability": 32.0,
       "LoseProbability": 68.0
+    },
+    {
+      "GameTime": "Oct 29, 8:15 PM ET",
+      "Team": "Carolina Panthers",
+      "Opponent": "Green Bay Packers",
+      "WinProbability": 36.3,
+      "LoseProbability": 63.7
+    },
+    {
+      "GameTime": "Oct 29, 8:15 PM ET",
+      "Team": "Green Bay Packers",
+      "Opponent": "Carolina Panthers",
+      "WinProbability": 63.7,
+      "LoseProbability": 36.3
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Jacksonville Jaguars",
+      "WinProbability": 24.9,
+      "LoseProbability": 75.1
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Jacksonville Jaguars",
+      "Opponent": "Indianapolis Colts",
+      "WinProbability": 75.1,
+      "LoseProbability": 24.9
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Tennessee Titans",
+      "Opponent": "Cincinnati Bengals",
+      "WinProbability": 16.1,
+      "LoseProbability": 83.9
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Cincinnati Bengals",
+      "Opponent": "Tennessee Titans",
+      "WinProbability": 83.9,
+      "LoseProbability": 16.1
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Cleveland Browns",
+      "Opponent": "Pittsburgh Steelers",
+      "WinProbability": 35.4,
+      "LoseProbability": 64.6
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Pittsburgh Steelers",
+      "Opponent": "Cleveland Browns",
+      "WinProbability": 64.6,
+      "LoseProbability": 35.4
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Minnesota Vikings",
+      "Opponent": "Detroit Lions",
+      "WinProbability": 39.5,
+      "LoseProbability": 60.5
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Detroit Lions",
+      "Opponent": "Minnesota Vikings",
+      "WinProbability": 60.5,
+      "LoseProbability": 39.5
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Atlanta Falcons",
+      "Opponent": "Tampa Bay Buccaneers",
+      "WinProbability": 43.0,
+      "LoseProbability": 57.0
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Atlanta Falcons",
+      "WinProbability": 57.0,
+      "LoseProbability": 43.0
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Arizona Cardinals",
+      "Opponent": "Dallas Cowboys",
+      "WinProbability": 28.3,
+      "LoseProbability": 71.7
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Arizona Cardinals",
+      "WinProbability": 71.7,
+      "LoseProbability": 28.3
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "New York Jets",
+      "WinProbability": 42.4,
+      "LoseProbability": 57.6
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "New York Jets",
+      "Opponent": "Las Vegas Raiders",
+      "WinProbability": 57.6,
+      "LoseProbability": 42.4
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Baltimore Ravens",
+      "Opponent": "Buffalo Bills",
+      "WinProbability": 38.6,
+      "LoseProbability": 61.4
+    },
+    {
+      "GameTime": "Nov 1, 1:00 PM ET",
+      "Team": "Buffalo Bills",
+      "Opponent": "Baltimore Ravens",
+      "WinProbability": 61.4,
+      "LoseProbability": 38.6
+    },
+    {
+      "GameTime": "Nov 1, 4:05 PM ET",
+      "Team": "Los Angeles Chargers",
+      "Opponent": "Los Angeles Rams",
+      "WinProbability": 25.7,
+      "LoseProbability": 74.3
+    },
+    {
+      "GameTime": "Nov 1, 4:05 PM ET",
+      "Team": "Los Angeles Rams",
+      "Opponent": "Los Angeles Chargers",
+      "WinProbability": 74.3,
+      "LoseProbability": 25.7
+    },
+    {
+      "GameTime": "Nov 1, 4:25 PM ET",
+      "Team": "New England Patriots",
+      "Opponent": "Miami Dolphins",
+      "WinProbability": 73.5,
+      "LoseProbability": 26.5
+    },
+    {
+      "GameTime": "Nov 1, 4:25 PM ET",
+      "Team": "Miami Dolphins",
+      "Opponent": "New England Patriots",
+      "WinProbability": 26.5,
+      "LoseProbability": 73.5
+    },
+    {
+      "GameTime": "Nov 1, 4:25 PM ET",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Denver Broncos",
+      "WinProbability": 58.0,
+      "LoseProbability": 42.0
+    },
+    {
+      "GameTime": "Nov 1, 4:25 PM ET",
+      "Team": "Denver Broncos",
+      "Opponent": "Kansas City Chiefs",
+      "WinProbability": 42.0,
+      "LoseProbability": 58.0
+    },
+    {
+      "GameTime": "Nov 1, 8:20 PM ET",
+      "Team": "Philadelphia Eagles",
+      "Opponent": "Washington Commanders",
+      "WinProbability": 32.7,
+      "LoseProbability": 67.3
+    },
+    {
+      "GameTime": "Nov 1, 8:20 PM ET",
+      "Team": "Washington Commanders",
+      "Opponent": "Philadelphia Eagles",
+      "WinProbability": 67.3,
+      "LoseProbability": 32.7
+    },
+    {
+      "GameTime": "Nov 2, 8:15 PM ET",
+      "Team": "Chicago Bears",
+      "Opponent": "Seattle Seahawks",
+      "WinProbability": 40.0,
+      "LoseProbability": 60.0
+    },
+    {
+      "GameTime": "Nov 2, 8:15 PM ET",
+      "Team": "Seattle Seahawks",
+      "Opponent": "Chicago Bears",
+      "WinProbability": 60.0,
+      "LoseProbability": 40.0
     }
   ],
   "oddsPerformance": [
@@ -3071,236 +3276,516 @@
       "Actual": "Win",
       "Assessment": "As expected",
       "Week": "week_6"
+    },
+    {
+      "GameTime": "Oct 22, 8:15 PM ET",
+      "Team": "New England Patriots",
+      "Opponent": "Chicago Bears",
+      "WinProbability": 38.1,
+      "LoseProbability": 61.9,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 22, 8:15 PM ET",
+      "Team": "Chicago Bears",
+      "Opponent": "New England Patriots",
+      "WinProbability": 61.9,
+      "LoseProbability": 38.1,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 9:30 AM ET",
+      "Team": "Pittsburgh Steelers",
+      "Opponent": "New Orleans Saints",
+      "WinProbability": 61.5,
+      "LoseProbability": 38.5,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 9:30 AM ET",
+      "Team": "New Orleans Saints",
+      "Opponent": "Pittsburgh Steelers",
+      "WinProbability": 38.5,
+      "LoseProbability": 61.5,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Indianapolis Colts",
+      "Opponent": "Minnesota Vikings",
+      "WinProbability": 28.8,
+      "LoseProbability": 71.2,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Minnesota Vikings",
+      "Opponent": "Indianapolis Colts",
+      "WinProbability": 71.2,
+      "LoseProbability": 28.8,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Miami Dolphins",
+      "Opponent": "New York Jets",
+      "WinProbability": 33.7,
+      "LoseProbability": 66.3,
+      "Actual": "Win",
+      "Assessment": "Beat the odds",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "New York Jets",
+      "Opponent": "Miami Dolphins",
+      "WinProbability": 66.3,
+      "LoseProbability": 33.7,
+      "Actual": "Loss",
+      "Assessment": "Fell short",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Cincinnati Bengals",
+      "Opponent": "Baltimore Ravens",
+      "WinProbability": 40.1,
+      "LoseProbability": 59.9,
+      "Actual": "Win",
+      "Assessment": "Beat the odds",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Baltimore Ravens",
+      "Opponent": "Cincinnati Bengals",
+      "WinProbability": 59.9,
+      "LoseProbability": 40.1,
+      "Actual": "Loss",
+      "Assessment": "Fell short",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Cleveland Browns",
+      "Opponent": "Tennessee Titans",
+      "WinProbability": 55.3,
+      "LoseProbability": 44.7,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Tennessee Titans",
+      "Opponent": "Cleveland Browns",
+      "WinProbability": 44.7,
+      "LoseProbability": 55.3,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Tampa Bay Buccaneers",
+      "Opponent": "Carolina Panthers",
+      "WinProbability": 34.2,
+      "LoseProbability": 65.8,
+      "Actual": "Win",
+      "Assessment": "Beat the odds",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Carolina Panthers",
+      "Opponent": "Tampa Bay Buccaneers",
+      "WinProbability": 65.8,
+      "LoseProbability": 34.2,
+      "Actual": "Loss",
+      "Assessment": "Fell short",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "San Francisco 49ers",
+      "Opponent": "Atlanta Falcons",
+      "WinProbability": 63.7,
+      "LoseProbability": 36.3,
+      "Actual": "Loss",
+      "Assessment": "Fell short",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Atlanta Falcons",
+      "Opponent": "San Francisco 49ers",
+      "WinProbability": 36.3,
+      "LoseProbability": 63.7,
+      "Actual": "Win",
+      "Assessment": "Beat the odds",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "New York Giants",
+      "Opponent": "Houston Texans",
+      "WinProbability": 23.3,
+      "LoseProbability": 76.7,
+      "Actual": "Win",
+      "Assessment": "Beat the odds",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 1:00 PM ET",
+      "Team": "Houston Texans",
+      "Opponent": "New York Giants",
+      "WinProbability": 76.7,
+      "LoseProbability": 23.3,
+      "Actual": "Loss",
+      "Assessment": "Fell short",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 4:05 PM ET",
+      "Team": "Denver Broncos",
+      "Opponent": "Arizona Cardinals",
+      "WinProbability": 64.8,
+      "LoseProbability": 35.2,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 4:05 PM ET",
+      "Team": "Arizona Cardinals",
+      "Opponent": "Denver Broncos",
+      "WinProbability": 35.2,
+      "LoseProbability": 64.8,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 4:25 PM ET",
+      "Team": "Los Angeles Rams",
+      "Opponent": "Las Vegas Raiders",
+      "WinProbability": 68.2,
+      "LoseProbability": 31.8,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 4:25 PM ET",
+      "Team": "Las Vegas Raiders",
+      "Opponent": "Los Angeles Rams",
+      "WinProbability": 31.8,
+      "LoseProbability": 68.2,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 4:25 PM ET",
+      "Team": "Green Bay Packers",
+      "Opponent": "Detroit Lions",
+      "WinProbability": 39.1,
+      "LoseProbability": 60.9,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 4:25 PM ET",
+      "Team": "Detroit Lions",
+      "Opponent": "Green Bay Packers",
+      "WinProbability": 60.9,
+      "LoseProbability": 39.1,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 8:20 PM ET",
+      "Team": "Kansas City Chiefs",
+      "Opponent": "Seattle Seahawks",
+      "WinProbability": 41.6,
+      "LoseProbability": 58.4,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 25, 8:20 PM ET",
+      "Team": "Seattle Seahawks",
+      "Opponent": "Kansas City Chiefs",
+      "WinProbability": 58.4,
+      "LoseProbability": 41.6,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 26, 8:15 PM ET",
+      "Team": "Dallas Cowboys",
+      "Opponent": "Philadelphia Eagles",
+      "WinProbability": 68.0,
+      "LoseProbability": 32.0,
+      "Actual": "Win",
+      "Assessment": "As expected",
+      "Week": "week_7"
+    },
+    {
+      "GameTime": "Oct 26, 8:15 PM ET",
+      "Team": "Philadelphia Eagles",
+      "Opponent": "Dallas Cowboys",
+      "WinProbability": 32.0,
+      "LoseProbability": 68.0,
+      "Actual": "Loss",
+      "Assessment": "As expected",
+      "Week": "week_7"
     }
   ],
   "binomialOdds": [
     {
       "Player": "alexander",
+      "Picks": 5,
+      "CorrectPicks": 0,
+      "Probability": 0.6492620729759997
+    },
+    {
+      "Player": "alexander",
+      "Picks": 5,
+      "CorrectPicks": 1,
+      "Probability": 6.01351006832
+    },
+    {
+      "Player": "alexander",
+      "Picks": 5,
+      "CorrectPicks": 2,
+      "Probability": 21.28265069696
+    },
+    {
+      "Player": "alexander",
+      "Picks": 5,
+      "CorrectPicks": 3,
+      "Probability": 35.70666676944
+    },
+    {
+      "Player": "alexander",
+      "Picks": 5,
+      "CorrectPicks": 4,
+      "Probability": 28.13836373208001
+    },
+    {
+      "Player": "alexander",
+      "Picks": 5,
+      "CorrectPicks": 5,
+      "Probability": 8.209546660224001
+    },
+    {
+      "Player": "billy",
+      "Picks": 5,
+      "CorrectPicks": 0,
+      "Probability": 4.943404872
+    },
+    {
+      "Player": "billy",
+      "Picks": 5,
+      "CorrectPicks": 1,
+      "Probability": 21.49273776
+    },
+    {
+      "Player": "billy",
+      "Picks": 5,
+      "CorrectPicks": 2,
+      "Probability": 35.29471024000001
+    },
+    {
+      "Player": "billy",
+      "Picks": 5,
+      "CorrectPicks": 3,
+      "Probability": 27.170594
+    },
+    {
+      "Player": "billy",
+      "Picks": 5,
+      "CorrectPicks": 4,
+      "Probability": 9.786705880000001
+    },
+    {
+      "Player": "billy",
+      "Picks": 5,
+      "CorrectPicks": 5,
+      "Probability": 1.311847248
+    },
+    {
+      "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 0,
-      "Probability": 0.5852645556645885
+      "Probability": 0.31328418630642
     },
     {
-      "Player": "alexander",
+      "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 1,
-      "Probability": 5.218770944694066
+      "Probability": 3.73690364536048
     },
     {
-      "Player": "alexander",
+      "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 2,
-      "Probability": 18.44473312676083
+      "Probability": 16.0593188635013
     },
     {
-      "Player": "alexander",
+      "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 3,
-      "Probability": 32.49272013272422
+      "Probability": 32.0537467662616
     },
     {
-      "Player": "alexander",
+      "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 4,
-      "Probability": 29.25826305935284
+      "Probability": 31.34874727200631
     },
     {
-      "Player": "alexander",
+      "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 5,
-      "Probability": 12.22093891862047
+      "Probability": 14.13976635855648
     },
     {
-      "Player": "alexander",
+      "Player": "ryan",
       "Picks": 6,
       "CorrectPicks": 6,
-      "Probability": 1.779309262182989
-    },
-    {
-      "Player": "billy",
-      "Picks": 5,
-      "CorrectPicks": 0,
-      "Probability": 2.1311534136816
-    },
-    {
-      "Player": "billy",
-      "Picks": 5,
-      "CorrectPicks": 1,
-      "Probability": 13.011424802592
-    },
-    {
-      "Player": "billy",
-      "Picks": 5,
-      "CorrectPicks": 2,
-      "Probability": 30.419418352816
-    },
-    {
-      "Player": "billy",
-      "Picks": 5,
-      "CorrectPicks": 3,
-      "Probability": 33.662561989184
-    },
-    {
-      "Player": "billy",
-      "Picks": 5,
-      "CorrectPicks": 4,
-      "Probability": 17.415154684408
-    },
-    {
-      "Player": "billy",
-      "Picks": 5,
-      "CorrectPicks": 5,
-      "Probability": 3.360286757318401
-    },
-    {
-      "Player": "ryan",
-      "Picks": 4,
-      "CorrectPicks": 0,
-      "Probability": 8.894891231999999
-    },
-    {
-      "Player": "ryan",
-      "Picks": 4,
-      "CorrectPicks": 1,
-      "Probability": 32.47174547199999
-    },
-    {
-      "Player": "ryan",
-      "Picks": 4,
-      "CorrectPicks": 2,
-      "Probability": 37.766516192
-    },
-    {
-      "Player": "ryan",
-      "Picks": 4,
-      "CorrectPicks": 3,
-      "Probability": 17.872166272
-    },
-    {
-      "Player": "ryan",
-      "Picks": 4,
-      "CorrectPicks": 4,
-      "Probability": 2.994680832
+      "Probability": 2.34823290800742
     },
     {
       "Player": "stup",
       "Picks": 5,
       "CorrectPicks": 0,
-      "Probability": 2.038725800852999
+      "Probability": 0.9671652372600007
     },
     {
       "Player": "stup",
       "Picks": 5,
       "CorrectPicks": 1,
-      "Probability": 13.870433501435
+      "Probability": 7.975377623700004
     },
     {
       "Player": "stup",
       "Picks": 5,
       "CorrectPicks": 2,
-      "Probability": 32.32374038572999
+      "Probability": 24.7442637326
     },
     {
       "Player": "stup",
       "Picks": 5,
       "CorrectPicks": 3,
-      "Probability": 33.33551982567
+      "Probability": 36.0391906874
     },
     {
       "Player": "stup",
       "Picks": 5,
       "CorrectPicks": 4,
-      "Probability": 15.682376181465
+      "Probability": 24.35149074629999
     },
     {
       "Player": "stup",
       "Picks": 5,
       "CorrectPicks": 5,
-      "Probability": 2.749204304847
+      "Probability": 5.922511972739997
     },
     {
       "Player": "trace",
       "Picks": 6,
       "CorrectPicks": 0,
-      "Probability": 1.344283936579583
+      "Probability": 0.3485792096075521
     },
     {
       "Player": "trace",
       "Picks": 6,
       "CorrectPicks": 1,
-      "Probability": 9.475734438199295
+      "Probability": 4.126137158351089
     },
     {
       "Player": "trace",
       "Picks": 6,
       "CorrectPicks": 2,
-      "Probability": 25.47808588190976
+      "Probability": 17.35235154403128
     },
     {
       "Player": "trace",
       "Picks": 6,
       "CorrectPicks": 3,
-      "Probability": 33.23520395877632
+      "Probability": 33.04557704821296
     },
     {
       "Player": "trace",
       "Picks": 6,
       "CorrectPicks": 4,
-      "Probability": 22.21196940152576
+      "Probability": 30.22709986354928
     },
     {
       "Player": "trace",
       "Picks": 6,
       "CorrectPicks": 5,
-      "Probability": 7.313729982506498
+      "Probability": 12.87750190273669
     },
     {
       "Player": "trace",
       "Picks": 6,
       "CorrectPicks": 6,
-      "Probability": 0.9409924005027843
+      "Probability": 2.022753273511152
     },
     {
       "Player": "christian",
-      "Picks": 6,
+      "Picks": 5,
       "CorrectPicks": 0,
-      "Probability": 0.3648265912811519
+      "Probability": 1.599402200000001
     },
     {
       "Player": "christian",
-      "Picks": 6,
+      "Picks": 5,
       "CorrectPicks": 1,
-      "Probability": 3.533239695372287
+      "Probability": 11.1577445
     },
     {
       "Player": "christian",
-      "Picks": 6,
+      "Picks": 5,
       "CorrectPicks": 2,
-      "Probability": 13.92033250032128
+      "Probability": 28.802625
     },
     {
       "Player": "christian",
-      "Picks": 6,
+      "Picks": 5,
       "CorrectPicks": 3,
-      "Probability": 28.46311971936896
+      "Probability": 34.694136
     },
     {
       "Player": "christian",
-      "Picks": 6,
+      "Picks": 5,
       "CorrectPicks": 4,
-      "Probability": 31.67735001702529
+      "Probability": 19.575864
     },
     {
       "Player": "christian",
-      "Picks": 6,
+      "Picks": 5,
       "CorrectPicks": 5,
-      "Probability": 18.01945278200909
-    },
-    {
-      "Player": "christian",
-      "Picks": 6,
-      "CorrectPicks": 6,
-      "Probability": 4.021678694621952
+      "Probability": 4.170228299999999
     }
   ],
   "binomialArchive": {
@@ -4259,9 +4744,239 @@
         "CorrectPicks": 6,
         "Probability": 4.021678694621952
       }
+    ],
+    "week_8": [
+      {
+        "Player": "alexander",
+        "Picks": 5,
+        "CorrectPicks": 0,
+        "Probability": 0.6492620729759997
+      },
+      {
+        "Player": "alexander",
+        "Picks": 5,
+        "CorrectPicks": 1,
+        "Probability": 6.01351006832
+      },
+      {
+        "Player": "alexander",
+        "Picks": 5,
+        "CorrectPicks": 2,
+        "Probability": 21.28265069696
+      },
+      {
+        "Player": "alexander",
+        "Picks": 5,
+        "CorrectPicks": 3,
+        "Probability": 35.70666676944
+      },
+      {
+        "Player": "alexander",
+        "Picks": 5,
+        "CorrectPicks": 4,
+        "Probability": 28.13836373208001
+      },
+      {
+        "Player": "alexander",
+        "Picks": 5,
+        "CorrectPicks": 5,
+        "Probability": 8.209546660224001
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 0,
+        "Probability": 4.943404872
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 1,
+        "Probability": 21.49273776
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 2,
+        "Probability": 35.29471024000001
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 3,
+        "Probability": 27.170594
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 4,
+        "Probability": 9.786705880000001
+      },
+      {
+        "Player": "billy",
+        "Picks": 5,
+        "CorrectPicks": 5,
+        "Probability": 1.311847248
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.31328418630642
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 3.73690364536048
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 16.0593188635013
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 32.0537467662616
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 31.34874727200631
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 14.13976635855648
+      },
+      {
+        "Player": "ryan",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 2.34823290800742
+      },
+      {
+        "Player": "stup",
+        "Picks": 5,
+        "CorrectPicks": 0,
+        "Probability": 0.9671652372600007
+      },
+      {
+        "Player": "stup",
+        "Picks": 5,
+        "CorrectPicks": 1,
+        "Probability": 7.975377623700004
+      },
+      {
+        "Player": "stup",
+        "Picks": 5,
+        "CorrectPicks": 2,
+        "Probability": 24.7442637326
+      },
+      {
+        "Player": "stup",
+        "Picks": 5,
+        "CorrectPicks": 3,
+        "Probability": 36.0391906874
+      },
+      {
+        "Player": "stup",
+        "Picks": 5,
+        "CorrectPicks": 4,
+        "Probability": 24.35149074629999
+      },
+      {
+        "Player": "stup",
+        "Picks": 5,
+        "CorrectPicks": 5,
+        "Probability": 5.922511972739997
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 0,
+        "Probability": 0.3485792096075521
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 1,
+        "Probability": 4.126137158351089
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 2,
+        "Probability": 17.35235154403128
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 3,
+        "Probability": 33.04557704821296
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 4,
+        "Probability": 30.22709986354928
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 5,
+        "Probability": 12.87750190273669
+      },
+      {
+        "Player": "trace",
+        "Picks": 6,
+        "CorrectPicks": 6,
+        "Probability": 2.022753273511152
+      },
+      {
+        "Player": "christian",
+        "Picks": 5,
+        "CorrectPicks": 0,
+        "Probability": 1.599402200000001
+      },
+      {
+        "Player": "christian",
+        "Picks": 5,
+        "CorrectPicks": 1,
+        "Probability": 11.1577445
+      },
+      {
+        "Player": "christian",
+        "Picks": 5,
+        "CorrectPicks": 2,
+        "Probability": 28.802625
+      },
+      {
+        "Player": "christian",
+        "Picks": 5,
+        "CorrectPicks": 3,
+        "Probability": 34.694136
+      },
+      {
+        "Player": "christian",
+        "Picks": 5,
+        "CorrectPicks": 4,
+        "Probability": 19.575864
+      },
+      {
+        "Player": "christian",
+        "Picks": 5,
+        "CorrectPicks": 5,
+        "Probability": 4.170228299999999
+      }
     ]
   },
-  "forecastWeek": "week_7",
+  "forecastWeek": "week_8",
   "playerReflections": [
     {
       "Week": "week_4",
@@ -4459,6 +5174,72 @@
       "ExpectedPoints": 2.8,
       "ActualPoints": 3,
       "ActualProbability": 35.228688332484,
+      "Result": "As forecast"
+    },
+    {
+      "Week": "week_7",
+      "Player": "alexander",
+      "Picks": 6,
+      "LikelyPoints": 3,
+      "LikelyProbability": 32.49272013272422,
+      "ExpectedPoints": 3.28,
+      "ActualPoints": 5,
+      "ActualProbability": 12.22093891862047,
+      "Result": "Above forecast"
+    },
+    {
+      "Week": "week_7",
+      "Player": "billy",
+      "Picks": 5,
+      "LikelyPoints": 3,
+      "LikelyProbability": 33.662561989184,
+      "ExpectedPoints": 2.61,
+      "ActualPoints": 2,
+      "ActualProbability": 30.419418352816,
+      "Result": "Below forecast"
+    },
+    {
+      "Week": "week_7",
+      "Player": "ryan",
+      "Picks": 4,
+      "LikelyPoints": 2,
+      "LikelyProbability": 37.766516192,
+      "ExpectedPoints": 1.74,
+      "ActualPoints": 1,
+      "ActualProbability": 32.47174547199999,
+      "Result": "Below forecast"
+    },
+    {
+      "Week": "week_7",
+      "Player": "stup",
+      "Picks": 5,
+      "LikelyPoints": 3,
+      "LikelyProbability": 33.33551982567,
+      "ExpectedPoints": 2.55,
+      "ActualPoints": 2,
+      "ActualProbability": 32.32374038572999,
+      "Result": "Below forecast"
+    },
+    {
+      "Week": "week_7",
+      "Player": "trace",
+      "Picks": 6,
+      "LikelyPoints": 3,
+      "LikelyProbability": 33.23520395877632,
+      "ExpectedPoints": 2.91,
+      "ActualPoints": 5,
+      "ActualProbability": 7.313729982506498,
+      "Result": "Above forecast"
+    },
+    {
+      "Week": "week_7",
+      "Player": "christian",
+      "Picks": 6,
+      "LikelyPoints": 4,
+      "LikelyProbability": 31.67735001702529,
+      "ExpectedPoints": 3.58,
+      "ActualPoints": 4,
+      "ActualProbability": 31.67735001702529,
       "Result": "As forecast"
     }
   ]
