@@ -40,6 +40,7 @@ function render(data) {
     { key: "Graded", label: "Graded" },
     { key: "Accuracy", label: "Accuracy", format: formatPct },
     { key: "PointsBack", label: "Back" },
+    { key: "WeeksWon", label: "Weeks won", format: value => value == null ? "—" : value },
     { key: "StartingMax", label: "Starting max", format: value => value == null ? "—" : value },
     { key: "MaxPossible", label: "Still possible max", format: value => value == null ? "—" : value },
     { key: "PointsRemaining", label: "Still available", format: value => value == null ? "—" : value },
@@ -51,9 +52,37 @@ function render(data) {
   document.getElementById("player-of-week").innerHTML = `
     <div class="section-heading"><div><p class="eyebrow">WEEKLY HONOR</p><h2>Player of the week</h2></div><span class="trophy">🏆</span></div>
     <div class="award">
-      <strong>${playersOfWeek.length ? playersOfWeek.map(playerLabel).join(" & ") : "No completed games yet"}</strong>
+      <strong>${playersOfWeek.length ? playersOfWeek.map(playerLabel).join(" & ") : "No verified completed week yet"}</strong>
       ${playersOfWeek.length ? `<span>${playerOfWeek.points} points in ${playerOfWeek.week}</span>` : ""}
     </div>`;
+
+  const weeklyRecords = data.weeklyRecords || {};
+  const recordWeeks = Object.keys(weeklyRecords)
+    .sort((a, b) => Number(a.replace("week_", "")) - Number(b.replace("week_", "")));
+  const recordFilter = document.getElementById("weekly-record-filter");
+  const previousRecordWeek = recordFilter.value;
+  recordFilter.innerHTML = recordWeeks.map(week =>
+    `<option value="${week}">${week.replace("week_", "Week ")}${weeklyRecords[week].Complete ? "" : " (not final)"}</option>`
+  ).join("");
+  const latestCompletedWeek = [...recordWeeks].reverse().find(week => weeklyRecords[week].Complete);
+  recordFilter.value = recordWeeks.includes(previousRecordWeek)
+    ? previousRecordWeek
+    : latestCompletedWeek || recordWeeks[recordWeeks.length - 1] || "";
+  recordFilter.disabled = !recordWeeks.length;
+  const renderWeeklyRecords = () => {
+    const week = weeklyRecords[recordFilter.value];
+    document.getElementById("weekly-record-note").textContent = !week
+      ? "No weekly results available yet."
+      : `${week.Complete ? "Final results." : "Results are not final or cannot be verified against the full schedule."} Record is correct–incorrect picks; NFL ties count as incorrect. Tied top scorers each win the week. Weeks won counts final weeks only.`;
+    renderTable(document.getElementById("weekly-record-table"), [
+      { key: "Player", label: "Player", format: value => playerLabel(value) },
+      { key: "Correct", label: "Record (correct–incorrect)", format: (value, row) => `${value}–${row.Incorrect}` },
+      { key: "Correct", label: "Points" },
+      { key: "WonWeek", label: "Weekly result", format: value => value ? "Winner" : "—" }
+    ], week?.Records || []);
+  };
+  recordFilter.onchange = renderWeeklyRecords;
+  renderWeeklyRecords();
 
   const standings = [...(data.standings || [])].sort((a, b) => {
     const divisionDifference = divisionOrder.indexOf(a.Division) - divisionOrder.indexOf(b.Division);
